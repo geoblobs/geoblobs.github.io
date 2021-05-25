@@ -1,0 +1,577 @@
+#Unit,PageNum,PageID,Date,Place,name,country,longitude,latitude
+3 DIVISION: 13 Battalion King's Liverpool Regiment,4.0,AWD00009on,1915-09-29,Merris,Merris,France,2.661152,50.7159968
+3 DIVISION: 13 Battalion King's Liverpool Regiment,5.0,AWD00009oi,1915-10-02,Merris,Merris,France,2.661152,50.7159968
+3 DIVISION: 13 Battalion King's Liverpool Regiment,5.0,AWD00009oi,1915-10-02,Nieppe,Nieppe,France,2.8403065,50.703612
+3 DIVISION: 13 Battalion King's Liverpool Regiment,5.0,AWD00009oi,1915-10-06,Nieppe,Nieppe,France,2.8403065,50.703612
+3 DIVISION: 13 Battalion King's Liverpool Regiment,5.0,AWD00009oi,1915-10-23,Steenvoorde,Steenvoorde,France,2.5816407,50.8101261
+3 DIVISION: 13 Battalion King's Liverpool Regiment,7.0,AWD00009of,1915-10-23,Steenvoorde,Steenvoorde,France,2.5816407,50.8101261
+3 DIVISION: 13 Battalion King's Liverpool Regiment,7.0,AWD00009of,1915-11-23,Poperinge,Poperinge,Belgium,2.7264961,50.8556646
+3 DIVISION: 13 Battalion King's Liverpool Regiment,9.0,AWD00009p2,1915-11-30,Dickebusch,Dikkebus,BE,2.8287299999999997,50.82131
+3 DIVISION: 13 Battalion King's Liverpool Regiment,15.0,AWD00009ov,1915-11-30,Dickebusch,Dikkebus,BE,2.8287299999999997,50.82131
+3 DIVISION: 13 Battalion King's Liverpool Regiment,15.0,AWD00009ov,1915-11-30,Voormezeele,Voormezele,BE,2.87616,50.81681
+3 DIVISION: 13 Battalion King's Liverpool Regiment,15.0,AWD00009ov,1915-11-30,Kingsway,Kingsway,United Kingdom,0.120568,52.2254336
+3 DIVISION: 13 Battalion King's Liverpool Regiment,15.0,AWD00009ov,1915-11-30,Reninghelst,Reningelst,BE,2.77066,50.81514
+3 DIVISION: 13 Battalion King's Liverpool Regiment,15.0,AWD00009ov,1916-01-05,Reninghelst,Reningelst,BE,2.77066,50.81514
+3 DIVISION: 13 Battalion King's Liverpool Regiment,17.0,AWD00009p4,1916-01-10,Reninghelst,Reningelst,BE,2.77066,50.81514
+3 DIVISION: 13 Battalion King's Liverpool Regiment,17.0,AWD00009p4,1916-01-10,Voormezeele,Voormezele,BE,2.87616,50.81681
+3 DIVISION: 13 Battalion King's Liverpool Regiment,17.0,AWD00009p4,1916-02-06,Reninghelst,Reningelst,BE,2.77066,50.81514
+3 DIVISION: 13 Battalion King's Liverpool Regiment,17.0,AWD00009p4,1916-02-06,Poperinghe,Poperinge,BE,2.7265900000000003,50.85386
+3 DIVISION: 13 Battalion King's Liverpool Regiment,17.0,AWD00009p4,1916-02-06,Audruicq,Audruicq,France,2.0752362,50.8786489
+3 DIVISION: 13 Battalion King's Liverpool Regiment,17.0,AWD00009p4,1916-02-06,Nortbecourt,La Coudrée,France,2.1013875,50.7815324
+3 DIVISION: 13 Battalion King's Liverpool Regiment,17.0,AWD00009p4,1916-02-07,Mentque,Mentque,France,2.0856493,50.783977
+3 DIVISION: 13 Battalion King's Liverpool Regiment,17.0,AWD00009p4,1916-02-23,Eperlecques,Eperlecques,FR,2.15207,50.805659999999996
+3 DIVISION: 13 Battalion King's Liverpool Regiment,17.0,AWD00009p4,1916-02-29,Eperlecques,Eperlecques,FR,2.15207,50.805659999999996
+3 DIVISION: 13 Battalion King's Liverpool Regiment,19.0,AWD00009os,1916-02-29,Saint Omer,Saint-Omer,France,2.2540754,50.7521914
+3 DIVISION: 13 Battalion King's Liverpool Regiment,19.0,AWD00009os,1916-03-02,Eperlecques,Eperlecques,FR,2.15207,50.805659999999996
+3 DIVISION: 13 Battalion King's Liverpool Regiment,19.0,AWD00009os,1916-03-02,Poperinghe,Poperinge,BE,2.7265900000000003,50.85386
+3 DIVISION: 13 Battalion King's Liverpool Regiment,19.0,AWD00009os,1916-03-07,Kingsway Trenches,German Trenches,France,2.7725187,50.3715027
+3 DIVISION: 13 Battalion King's Liverpool Regiment,19.0,AWD00009os,1916-03-11,Voormezeele,Voormezele,BE,2.87616,50.81681
+3 DIVISION: 13 Battalion King's Liverpool Regiment,19.0,AWD00009os,1916-03-11,Scottish Wood,Kite Wood,United Kingdom,-3.040467,55.6060324
+3 DIVISION: 13 Battalion King's Liverpool Regiment,19.0,AWD00009os,1916-03-11,Dickebusch,Dikkebus,BE,2.8287299999999997,50.82131
+3 DIVISION: 13 Battalion King's Liverpool Regiment,19.0,AWD00009os,1916-03-19,Voormezeele,Voormezele,BE,2.87616,50.81681
+3 DIVISION: 13 Battalion King's Liverpool Regiment,19.0,AWD00009os,1916-03-26,Dickebusch,Dikkebus,BE,2.8287299999999997,50.82131
+3 DIVISION: 13 Battalion King's Liverpool Regiment,19.0,AWD00009os,1916-03-28,Saint Eloi,Saint Eloi,Belgium,5.1047399,49.8761297
+3 DIVISION: 13 Battalion King's Liverpool Regiment,19.0,AWD00009os,1916-03-31,Dickebusch,Dikkebus,BE,2.8287299999999997,50.82131
+3 DIVISION: 13 Battalion King's Liverpool Regiment,3.0,AWD0002al6,1916-04-01,Dickebusch,Dikkebus,BE,2.8287299999999997,50.82131
+3 DIVISION: 13 Battalion King's Liverpool Regiment,3.0,AWD0002al6,1916-04-03,Dickebusch,Dikkebus,BE,2.8287299999999997,50.82131
+3 DIVISION: 13 Battalion King's Liverpool Regiment,3.0,AWD0002al6,1916-04-03,Reninghelst,Reningelst,BE,2.77066,50.81514
+3 DIVISION: 13 Battalion King's Liverpool Regiment,3.0,AWD0002al6,1916-04-04,Reninghelst,Reningelst,BE,2.77066,50.81514
+3 DIVISION: 13 Battalion King's Liverpool Regiment,3.0,AWD0002al6,1916-04-06,Bailleul,Bailleul,France,2.7349286,50.7396668
+3 DIVISION: 13 Battalion King's Liverpool Regiment,3.0,AWD0002al6,1916-04-24,Bailleul,Bailleul,France,2.7349286,50.7396668
+3 DIVISION: 13 Battalion King's Liverpool Regiment,3.0,AWD0002al6,1916-04-25,Kemmel,Kemmel,Belgium,2.8258709,50.7828552
+3 DIVISION: 13 Battalion King's Liverpool Regiment,3.0,AWD0002al6,1916-04-29,Locre,Locre,Italy,11.2320141,45.7111176
+3 DIVISION: 13 Battalion King's Liverpool Regiment,3.0,AWD0002al6,1916-04-30,Locre,Locre,Italy,11.2320141,45.7111176
+3 DIVISION: 13 Battalion King's Liverpool Regiment,5.0,AWD0002anc,1916-05-03,Locre,Locre,Italy,11.2320141,45.7111176
+3 DIVISION: 13 Battalion King's Liverpool Regiment,5.0,AWD0002anc,1916-05-04,R.C. Farm,Redwood Farm,United Kingdom,-0.2848117,52.3184303
+3 DIVISION: 13 Battalion King's Liverpool Regiment,5.0,AWD0002anc,1916-05-05,Trenches,German Trenches,France,2.7725187,50.3715027
+3 DIVISION: 13 Battalion King's Liverpool Regiment,5.0,AWD0002anc,1916-05-09,R.C. Farm,Redwood Farm,United Kingdom,-0.2848117,52.3184303
+3 DIVISION: 13 Battalion King's Liverpool Regiment,5.0,AWD0002anc,1916-05-10,Locre,Locre,Italy,11.2320141,45.7111176
+3 DIVISION: 13 Battalion King's Liverpool Regiment,5.0,AWD0002anc,1916-05-11,Locre,Locre,Italy,11.2320141,45.7111176
+3 DIVISION: 13 Battalion King's Liverpool Regiment,5.0,AWD0002anc,1916-05-13,Trenches,German Trenches,France,2.7725187,50.3715027
+3 DIVISION: 13 Battalion King's Liverpool Regiment,5.0,AWD0002anc,1916-05-16,Locre,Locre,Italy,11.2320141,45.7111176
+3 DIVISION: 13 Battalion King's Liverpool Regiment,5.0,AWD0002anc,1916-05-17,Locre,Locre,Italy,11.2320141,45.7111176
+3 DIVISION: 13 Battalion King's Liverpool Regiment,5.0,AWD0002anc,1916-05-24,Trenches,German Trenches,France,2.7725187,50.3715027
+3 DIVISION: 13 Battalion King's Liverpool Regiment,5.0,AWD0002anc,1916-05-25,R.C. Farm,Redwood Farm,United Kingdom,-0.2848117,52.3184303
+3 DIVISION: 13 Battalion King's Liverpool Regiment,5.0,AWD0002anc,1916-05-26,Meteren,Meteren,The Netherlands,5.2832386,51.863605
+3 DIVISION: 13 Battalion King's Liverpool Regiment,5.0,AWD0002anc,1916-05-31,Meteren,Meteren,The Netherlands,5.2832386,51.863605
+3 DIVISION: 13 Battalion King's Liverpool Regiment,7.0,AWD0002alq,1916-06-01,Meteren,Meteren,The Netherlands,5.2832386,51.863605
+3 DIVISION: 13 Battalion King's Liverpool Regiment,7.0,AWD0002alq,1916-06-04,Meteren,Meteren,The Netherlands,5.2832386,51.863605
+3 DIVISION: 13 Battalion King's Liverpool Regiment,7.0,AWD0002alq,1916-06-05,Reninghelst,Reningelst,BE,2.77066,50.81514
+3 DIVISION: 13 Battalion King's Liverpool Regiment,7.0,AWD0002alq,1916-06-05,Voormezeele,Voormezele,BE,2.87616,50.81681
+3 DIVISION: 13 Battalion King's Liverpool Regiment,7.0,AWD0002alq,1916-06-06,Scottish Wood,Kite Wood,United Kingdom,-3.040467,55.6060324
+3 DIVISION: 13 Battalion King's Liverpool Regiment,7.0,AWD0002alq,1916-06-10,Voormezeele,Voormezele,BE,2.87616,50.81681
+3 DIVISION: 13 Battalion King's Liverpool Regiment,7.0,AWD0002alq,1916-06-10,Scottish Wood,Kite Wood,United Kingdom,-3.040467,55.6060324
+3 DIVISION: 13 Battalion King's Liverpool Regiment,7.0,AWD0002alq,1916-06-11,Reninghelst,Reningelst,BE,2.77066,50.81514
+3 DIVISION: 13 Battalion King's Liverpool Regiment,7.0,AWD0002alq,1916-06-11,Meteren,Meteren,The Netherlands,5.2832386,51.863605
+3 DIVISION: 13 Battalion King's Liverpool Regiment,7.0,AWD0002alq,1916-06-17,Meteren,Meteren,The Netherlands,5.2832386,51.863605
+3 DIVISION: 13 Battalion King's Liverpool Regiment,7.0,AWD0002alq,1916-06-18,Bayenghem,Bayenghem-lès-Éperlecques,France,2.125144,50.8064058
+3 DIVISION: 13 Battalion King's Liverpool Regiment,10.0,AWD0002aoi,1916-07-01,Doullens,Doullens,France,2.3410532,50.1572085
+3 DIVISION: 13 Battalion King's Liverpool Regiment,10.0,AWD0002aoi,1916-07-01,Bayenghem,Bayenghem-lès-Seninghem,France,2.07593,50.69993
+3 DIVISION: 13 Battalion King's Liverpool Regiment,10.0,AWD0002aoi,1916-07-02,Doullens,Doullens,France,2.3410532,50.1572085
+3 DIVISION: 13 Battalion King's Liverpool Regiment,10.0,AWD0002aoi,1916-07-02,Bernaville,Bernaville,France,2.1643934,50.1323514
+3 DIVISION: 13 Battalion King's Liverpool Regiment,10.0,AWD0002aoi,1916-07-05,Bernaville,Bernaville,France,2.1643934,50.1323514
+3 DIVISION: 13 Battalion King's Liverpool Regiment,10.0,AWD0002aoi,1916-07-05,Vignacourt,Vignacourt,France,2.1967768,50.0118385
+3 DIVISION: 13 Battalion King's Liverpool Regiment,10.0,AWD0002aoi,1916-07-06,Vignacourt,Vignacourt,France,2.1967768,50.0118385
+3 DIVISION: 13 Battalion King's Liverpool Regiment,10.0,AWD0002aoi,1916-07-06,Bertangles,Bertangles,France,2.2992907,49.9709404
+3 DIVISION: 13 Battalion King's Liverpool Regiment,10.0,AWD0002aoi,1916-07-07,Bertangles,Bertangles,France,2.2992907,49.9709404
+3 DIVISION: 13 Battalion King's Liverpool Regiment,10.0,AWD0002aoi,1916-07-07,La Houssoye,La Houssoye,France,1.9421609,49.3543903
+3 DIVISION: 13 Battalion King's Liverpool Regiment,10.0,AWD0002aoi,1916-07-08,Morlancourt,Morlancourt,France,2.6288324,49.9504686
+3 DIVISION: 13 Battalion King's Liverpool Regiment,10.0,AWD0002aoi,1916-07-09,Morlancourt,Morlancourt,France,2.6288324,49.9504686
+3 DIVISION: 13 Battalion King's Liverpool Regiment,10.0,AWD0002aoi,1916-07-09,Carnoy,Carnoy,France,2.7563297,49.9853379
+3 DIVISION: 13 Battalion King's Liverpool Regiment,10.0,AWD0002aoi,1916-07-11,Carnoy,Carnoy,France,2.7563297,49.9853379
+3 DIVISION: 13 Battalion King's Liverpool Regiment,11.0,AWD0002aog,1916-07-24,Sand Pits,The Sand Pits,United Kingdom,-0.5486357289546681,51.337369699999996
+3 DIVISION: 13 Battalion King's Liverpool Regiment,11.0,AWD0002aog,1916-07-25,Sand Pits,The Sand Pits,United Kingdom,-0.5486357289546681,51.337369699999996
+3 DIVISION: 13 Battalion King's Liverpool Regiment,11.0,AWD0002aog,1916-07-27,Ville-Sur-Ancre,Ville-sur-Ancre,France,2.610144,49.9617067
+3 DIVISION: 13 Battalion King's Liverpool Regiment,11.0,AWD0002aog,1916-07-27,Sand Pits,The Sand Pits,United Kingdom,-0.5486357289546681,51.337369699999996
+3 DIVISION: 13 Battalion King's Liverpool Regiment,13.0,AWD0002am7,1916-08-01,Ville-Sur-Ancre,Ville-sur-Ancre,France,2.610144,49.9617067
+3 DIVISION: 13 Battalion King's Liverpool Regiment,13.0,AWD0002am7,1916-08-11,Ville-Sur-Ancre,Ville-sur-Ancre,France,2.610144,49.9617067
+3 DIVISION: 13 Battalion King's Liverpool Regiment,13.0,AWD0002am7,1916-08-11,Sand Pits,The Sand Pits,United Kingdom,-0.5486357289546681,51.337369699999996
+3 DIVISION: 13 Battalion King's Liverpool Regiment,13.0,AWD0002am7,1916-08-16,Sand Pits,The Sand Pits,United Kingdom,-0.5486357289546681,51.337369699999996
+3 DIVISION: 13 Battalion King's Liverpool Regiment,13.0,AWD0002am7,1916-08-16,Guillemont,Guillemont,France,2.8255029,50.0147775
+3 DIVISION: 13 Battalion King's Liverpool Regiment,13.0,AWD0002am7,1916-08-22,Ville-Sur-Ancre,Ville-sur-Ancre,France,2.610144,49.9617067
+3 DIVISION: 13 Battalion King's Liverpool Regiment,13.0,AWD0002am7,1916-08-23,Ville-Sur-Ancre,Ville-sur-Ancre,France,2.610144,49.9617067
+3 DIVISION: 13 Battalion King's Liverpool Regiment,13.0,AWD0002am7,1916-08-23,Candas,Candas,France,2.2587844,50.1068897
+3 DIVISION: 13 Battalion King's Liverpool Regiment,13.0,AWD0002am7,1916-08-23,Mericourt,Mericourt-l'Abbe,FR,2.56545,49.95213
+3 DIVISION: 13 Battalion King's Liverpool Regiment,13.0,AWD0002am7,1916-08-25,Candas,Candas,France,2.2587844,50.1068897
+3 DIVISION: 13 Battalion King's Liverpool Regiment,13.0,AWD0002am7,1916-08-26,Candas,Candas,France,2.2587844,50.1068897
+3 DIVISION: 13 Battalion King's Liverpool Regiment,13.0,AWD0002am7,1916-08-26,Barly,Barly,France,2.547855,50.2512851
+3 DIVISION: 13 Battalion King's Liverpool Regiment,13.0,AWD0002am7,1916-08-27,Barly,Barly,France,2.547855,50.2512851
+3 DIVISION: 13 Battalion King's Liverpool Regiment,13.0,AWD0002am7,1916-08-27,Mourcheaux,Les Moucheaux,France,2.0761038,48.4784711
+3 DIVISION: 13 Battalion King's Liverpool Regiment,13.0,AWD0002am7,1916-08-28,Mourcheaux,Les Moucheaux,France,2.0761038,48.4784711
+3 DIVISION: 13 Battalion King's Liverpool Regiment,13.0,AWD0002am7,1916-08-28,Hestrus,Hestrus,France,2.3294,50.44756
+3 DIVISION: 13 Battalion King's Liverpool Regiment,13.0,AWD0002am7,1916-08-29,Hestrus,Hestrus,France,2.3294,50.44756
+3 DIVISION: 13 Battalion King's Liverpool Regiment,14.0,AWD0002alb,1916-08-30,Hestrus,Hestrus,France,2.3294,50.44756
+3 DIVISION: 13 Battalion King's Liverpool Regiment,14.0,AWD0002alb,1916-08-31,Marles-les-Mines,Marles-les-Mines,France,2.5060412,50.5019493
+3 DIVISION: 13 Battalion King's Liverpool Regiment,22.0,AWD0002anx,1916-09-01,Marles-les-Mines,Marles-les-Mines,France,2.5060412,50.5019493
+3 DIVISION: 13 Battalion King's Liverpool Regiment,22.0,AWD0002anx,1916-09-03,Maringarbe,Mazingarbe,France,2.7185236,50.4693066
+3 DIVISION: 13 Battalion King's Liverpool Regiment,22.0,AWD0002anx,1916-09-23,Allouagne,Allouagne,France,2.50706,50.5325
+3 DIVISION: 13 Battalion King's Liverpool Regiment,22.0,AWD0002anx,1916-09-24,Allouagne,Allouagne,France,2.50706,50.5325
+3 DIVISION: 13 Battalion King's Liverpool Regiment,24.0,AWD0002anv,1916-10-01,Erny-Saint-Julien,Erny-Saint-Julien,France,2.253229,50.5854293
+3 DIVISION: 13 Battalion King's Liverpool Regiment,24.0,AWD0002anv,1916-10-05,Hestrus,Hestrus,France,2.3294,50.44756
+3 DIVISION: 13 Battalion King's Liverpool Regiment,24.0,AWD0002anv,1916-10-06,Hestrus,Hestrus,France,2.3294,50.44756
+3 DIVISION: 13 Battalion King's Liverpool Regiment,24.0,AWD0002anv,1916-10-07,Saint Pol,Saint-Pol-sur-Ternoise,France,2.3361053,50.3812113
+3 DIVISION: 13 Battalion King's Liverpool Regiment,24.0,AWD0002anv,1916-10-07,Puchevillers,Puchevillers,France,2.4091054,50.0543516
+3 DIVISION: 13 Battalion King's Liverpool Regiment,24.0,AWD0002anv,1916-10-08,Bertrancourt,Bertrancourt,France,2.5559172,50.0933584
+3 DIVISION: 13 Battalion King's Liverpool Regiment,24.0,AWD0002anv,1916-10-19,Louvencourt,Louvencourt,France,2.4993596,50.0942011
+3 DIVISION: 13 Battalion King's Liverpool Regiment,24.0,AWD0002anv,1916-10-20,Louvencourt,Louvencourt,France,2.4993596,50.0942011
+3 DIVISION: 13 Battalion King's Liverpool Regiment,26.0,AWD0002akm,1916-11-03,Louvencourt,Louvencourt,France,2.4993596,50.0942011
+3 DIVISION: 13 Battalion King's Liverpool Regiment,26.0,AWD0002akm,1916-11-04,Colincamp,Colincamps,France,2.6028808999999997,50.1015302
+3 DIVISION: 13 Battalion King's Liverpool Regiment,26.0,AWD0002akm,1916-11-07,Courcelles,Courcelles-le-Comte,France,2.7741831,50.163614
+3 DIVISION: 13 Battalion King's Liverpool Regiment,27.0,AWD0002amz,1916-11-11,Courcelles,Courcelles-le-Comte,France,2.7741831,50.163614
+3 DIVISION: 13 Battalion King's Liverpool Regiment,27.0,AWD0002amz,1916-11-12,Jerimiah Trench,Trench Green,United Kingdom,-1.013536,51.494467
+3 DIVISION: 13 Battalion King's Liverpool Regiment,27.0,AWD0002amz,1916-11-12,Courcelles,Courcelles-le-Comte,France,2.7741831,50.163614
+3 DIVISION: 13 Battalion King's Liverpool Regiment,28.0,AWD0002aof,1916-11-19,Courcelles,Courcelles-le-Comte,France,2.7741831,50.163614
+3 DIVISION: 13 Battalion King's Liverpool Regiment,28.0,AWD0002aof,1916-11-21,Courcelles,Courcelles-le-Comte,France,2.7741831,50.163614
+3 DIVISION: 13 Battalion King's Liverpool Regiment,28.0,AWD0002aof,1916-11-22,Courcelles,Courcelles-le-Comte,France,2.7741831,50.163614
+3 DIVISION: 13 Battalion King's Liverpool Regiment,28.0,AWD0002aof,1916-11-24,Marieux,Marieux,France,2.4414783,50.1062046
+3 DIVISION: 13 Battalion King's Liverpool Regiment,28.0,AWD0002aof,1916-11-27,Acheux Road,Acheux-en-Amiénois,France,2.5306202,50.0728994
+3 DIVISION: 13 Battalion King's Liverpool Regiment,29.0,AWD0002am9,1916-11-29,Acheux Road,Acheux-en-Amiénois,France,2.5306202,50.0728994
+3 DIVISION: 13 Battalion King's Liverpool Regiment,31.0,AWD0002aoh,1916-12-01,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 13 Battalion King's Liverpool Regiment,31.0,AWD0002aoh,1916-12-03,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 13 Battalion King's Liverpool Regiment,31.0,AWD0002aoh,1916-12-04,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 13 Battalion King's Liverpool Regiment,31.0,AWD0002aoh,1916-12-05,Courcelles,Buire-Courcelles,France,3.01391,49.92675
+3 DIVISION: 13 Battalion King's Liverpool Regiment,31.0,AWD0002aoh,1916-12-05,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 13 Battalion King's Liverpool Regiment,31.0,AWD0002aoh,1916-12-07,Courcelles,Buire-Courcelles,France,3.01391,49.92675
+3 DIVISION: 13 Battalion King's Liverpool Regiment,31.0,AWD0002aoh,1916-12-08,Courcelles,Buire-Courcelles,France,3.01391,49.92675
+3 DIVISION: 13 Battalion King's Liverpool Regiment,31.0,AWD0002aoh,1916-12-09,Courcelles,Buire-Courcelles,France,3.01391,49.92675
+3 DIVISION: 13 Battalion King's Liverpool Regiment,32.0,AWD0002aly,1916-12-13,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 13 Battalion King's Liverpool Regiment,32.0,AWD0002aly,1916-12-14,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 13 Battalion King's Liverpool Regiment,32.0,AWD0002aly,1916-12-15,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 13 Battalion King's Liverpool Regiment,32.0,AWD0002aly,1916-12-16,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 13 Battalion King's Liverpool Regiment,32.0,AWD0002aly,1916-12-17,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 13 Battalion King's Liverpool Regiment,32.0,AWD0002aly,1916-12-18,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 13 Battalion King's Liverpool Regiment,32.0,AWD0002aly,1916-12-19,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 13 Battalion King's Liverpool Regiment,33.0,AWD0002amt,1916-12-20,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 13 Battalion King's Liverpool Regiment,33.0,AWD0002amt,1916-12-21,Courcelles,Buire-Courcelles,France,3.01391,49.92675
+3 DIVISION: 13 Battalion King's Liverpool Regiment,33.0,AWD0002amt,1916-12-21,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 13 Battalion King's Liverpool Regiment,33.0,AWD0002amt,1916-12-22,Courcelles,Buire-Courcelles,France,3.01391,49.92675
+3 DIVISION: 13 Battalion King's Liverpool Regiment,33.0,AWD0002amt,1916-12-23,Courcelles,Buire-Courcelles,France,3.01391,49.92675
+3 DIVISION: 13 Battalion King's Liverpool Regiment,33.0,AWD0002amt,1916-12-24,Courcelles,Buire-Courcelles,France,3.01391,49.92675
+3 DIVISION: 13 Battalion King's Liverpool Regiment,33.0,AWD0002amt,1916-12-25,Courcelles,Buire-Courcelles,France,3.01391,49.92675
+3 DIVISION: 13 Battalion King's Liverpool Regiment,33.0,AWD0002amt,1916-12-26,Courcelles,Buire-Courcelles,France,3.01391,49.92675
+3 DIVISION: 13 Battalion King's Liverpool Regiment,33.0,AWD0002amt,1916-12-27,Courcelles,Buire-Courcelles,France,3.01391,49.92675
+3 DIVISION: 13 Battalion King's Liverpool Regiment,34.0,AWD0002an7,1916-12-29,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 13 Battalion King's Liverpool Regiment,34.0,AWD0002an7,1916-12-30,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 13 Battalion King's Liverpool Regiment,34.0,AWD0002an7,1916-12-31,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 13 Battalion King's Liverpool Regiment,36.0,AWD0002amb,1917-01-01,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 13 Battalion King's Liverpool Regiment,36.0,AWD0002amb,1917-01-02,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 13 Battalion King's Liverpool Regiment,36.0,AWD0002amb,1917-01-03,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 13 Battalion King's Liverpool Regiment,36.0,AWD0002amb,1917-01-03,Bonneville,Bonneville,France,6.4086189000000005,46.0775797
+3 DIVISION: 13 Battalion King's Liverpool Regiment,36.0,AWD0002amb,1917-01-04,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 13 Battalion King's Liverpool Regiment,36.0,AWD0002amb,1917-01-05,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 13 Battalion King's Liverpool Regiment,36.0,AWD0002amb,1917-01-06,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 13 Battalion King's Liverpool Regiment,36.0,AWD0002amb,1917-01-07,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 13 Battalion King's Liverpool Regiment,36.0,AWD0002amb,1917-01-08,Terramesnil,Terramesnil,France,2.3793932,50.1062525
+3 DIVISION: 13 Battalion King's Liverpool Regiment,36.0,AWD0002amb,1917-01-09,Terramesnil,Terramesnil,France,2.3793932,50.1062525
+3 DIVISION: 13 Battalion King's Liverpool Regiment,36.0,AWD0002amb,1917-01-09,Bonneville,Bonneville,France,6.4086189000000005,46.0775797
+3 DIVISION: 13 Battalion King's Liverpool Regiment,36.0,AWD0002amb,1917-01-10,Bonneville,Bonneville,France,6.4086189000000005,46.0775797
+3 DIVISION: 13 Battalion King's Liverpool Regiment,36.0,AWD0002amb,1917-01-11,Bonneville,Bonneville,France,6.4086189000000005,46.0775797
+3 DIVISION: 13 Battalion King's Liverpool Regiment,36.0,AWD0002amb,1917-01-12,Bonneville,Bonneville,France,6.4086189000000005,46.0775797
+3 DIVISION: 13 Battalion King's Liverpool Regiment,37.0,AWD0002ant,1917-01-13,Bonneville,Bonneville,France,6.4086189000000005,46.0775797
+3 DIVISION: 13 Battalion King's Liverpool Regiment,37.0,AWD0002ant,1917-01-14,Bonneville,Bonneville,France,6.4086189000000005,46.0775797
+3 DIVISION: 13 Battalion King's Liverpool Regiment,37.0,AWD0002ant,1917-01-15,Bonneville,Bonneville,France,6.4086189000000005,46.0775797
+3 DIVISION: 13 Battalion King's Liverpool Regiment,37.0,AWD0002ant,1917-01-16,Bonneville,Bonneville,France,6.4086189000000005,46.0775797
+3 DIVISION: 13 Battalion King's Liverpool Regiment,37.0,AWD0002ant,1917-01-17,Bonneville,Bonneville,France,6.4086189000000005,46.0775797
+3 DIVISION: 13 Battalion King's Liverpool Regiment,37.0,AWD0002ant,1917-01-17,Fieffes,Fieffes,France,2.2278377,50.0779302
+3 DIVISION: 13 Battalion King's Liverpool Regiment,37.0,AWD0002ant,1917-01-19,Bonneville,Bonneville,France,6.4086189000000005,46.0775797
+3 DIVISION: 13 Battalion King's Liverpool Regiment,37.0,AWD0002ant,1917-01-20,Bonneville,Bonneville,France,6.4086189000000005,46.0775797
+3 DIVISION: 13 Battalion King's Liverpool Regiment,37.0,AWD0002ant,1917-01-21,Bonneville,Bonneville,France,6.4086189000000005,46.0775797
+3 DIVISION: 13 Battalion King's Liverpool Regiment,37.0,AWD0002ant,1917-01-23,Bonneville,Bonneville,France,6.4086189000000005,46.0775797
+3 DIVISION: 13 Battalion King's Liverpool Regiment,37.0,AWD0002ant,1917-01-23,Fieffes,Fieffes,France,2.2278377,50.0779302
+3 DIVISION: 13 Battalion King's Liverpool Regiment,37.0,AWD0002ant,1917-01-24,Bonneville,Bonneville,France,6.4086189000000005,46.0775797
+3 DIVISION: 13 Battalion King's Liverpool Regiment,37.0,AWD0002ant,1917-01-25,Bonneville,Bonneville,France,6.4086189000000005,46.0775797
+3 DIVISION: 13 Battalion King's Liverpool Regiment,38.0,AWD0002alo,1917-01-26,Bonneville,Bonneville,France,6.4086189000000005,46.0775797
+3 DIVISION: 13 Battalion King's Liverpool Regiment,38.0,AWD0002alo,1917-01-27,Bonneville,Bonneville,France,6.4086189000000005,46.0775797
+3 DIVISION: 13 Battalion King's Liverpool Regiment,38.0,AWD0002alo,1917-01-28,Bonneville,Bonneville,France,6.4086189000000005,46.0775797
+3 DIVISION: 13 Battalion King's Liverpool Regiment,38.0,AWD0002alo,1917-01-28,Doullens,Doullens,France,2.3410532,50.1572085
+3 DIVISION: 13 Battalion King's Liverpool Regiment,38.0,AWD0002alo,1917-01-28,Ransart,Ransart,France,2.3116754999999998,50.1878554
+3 DIVISION: 13 Battalion King's Liverpool Regiment,38.0,AWD0002alo,1917-01-29,Bonnieres,Les Bonnieres,France,0.015435299999999999,46.735157
+3 DIVISION: 13 Battalion King's Liverpool Regiment,38.0,AWD0002alo,1917-01-31,Hernicourt,Hernicourt,France,2.3049761,50.4079071
+3 DIVISION: 13 Battalion King's Liverpool Regiment,38.0,AWD0002alo,1917-01-31,Ourton,Ourton,France,2.4778666,50.4552507
+3 DIVISION: 13 Battalion King's Liverpool Regiment,39.0,AWD0002amn,1917-02-01,Ourton,Ourton,France,2.4778666,50.4552507
+3 DIVISION: 13 Battalion King's Liverpool Regiment,39.0,AWD0002amn,1917-02-02,Ourton,Ourton,France,2.4778666,50.4552507
+3 DIVISION: 13 Battalion King's Liverpool Regiment,39.0,AWD0002amn,1917-02-03,Ourton,Ourton,France,2.4778666,50.4552507
+3 DIVISION: 13 Battalion King's Liverpool Regiment,39.0,AWD0002amn,1917-02-04,Ourton,Ourton,France,2.4778666,50.4552507
+3 DIVISION: 13 Battalion King's Liverpool Regiment,39.0,AWD0002amn,1917-02-04,Wanquetin,Wanquetin,France,2.6129655,50.2762664
+3 DIVISION: 13 Battalion King's Liverpool Regiment,39.0,AWD0002amn,1917-02-05,Erin,Erin,FR,2.20839,50.44009000000001
+3 DIVISION: 13 Battalion King's Liverpool Regiment,39.0,AWD0002amn,1917-02-05,Ourton,Ourton,France,2.4778666,50.4552507
+3 DIVISION: 13 Battalion King's Liverpool Regiment,39.0,AWD0002amn,1917-02-06,Ourton,Ourton,France,2.4778666,50.4552507
+3 DIVISION: 13 Battalion King's Liverpool Regiment,39.0,AWD0002amn,1917-02-07,Ourton,Ourton,France,2.4778666,50.4552507
+3 DIVISION: 13 Battalion King's Liverpool Regiment,39.0,AWD0002amn,1917-02-08,Ourton,Ourton,France,2.4778666,50.4552507
+3 DIVISION: 13 Battalion King's Liverpool Regiment,39.0,AWD0002amn,1917-02-08,Magnicourt-Sur-Canche,Magnicourt-sur-Canche,France,2.4090313,50.3030175
+3 DIVISION: 13 Battalion King's Liverpool Regiment,39.0,AWD0002amn,1917-02-09,Magnicourt-Sur-Canche,Magnicourt-sur-Canche,France,2.4090313,50.3030175
+3 DIVISION: 13 Battalion King's Liverpool Regiment,39.0,AWD0002amn,1917-02-10,Magnicourt Sur Canche,Magnicourt-sur-Canche,France,2.4090313,50.3030175
+3 DIVISION: 13 Battalion King's Liverpool Regiment,39.0,AWD0002amn,1917-02-10,Magnicourt-Sur-Canche,Magnicourt-sur-Canche,France,2.4090313,50.3030175
+3 DIVISION: 13 Battalion King's Liverpool Regiment,40.0,AWD0002amq,1917-02-11,Houvin-Houvigneul,Houvin-Houvigneul,France,2.3827724999999997,50.2976119
+3 DIVISION: 13 Battalion King's Liverpool Regiment,40.0,AWD0002amq,1917-02-12,Erin,Erin,FR,2.20839,50.44009000000001
+3 DIVISION: 13 Battalion King's Liverpool Regiment,40.0,AWD0002amq,1917-02-12,Houvin-Houvigneul,Houvin-Houvigneul,France,2.3827724999999997,50.2976119
+3 DIVISION: 13 Battalion King's Liverpool Regiment,40.0,AWD0002amq,1917-02-12,Houvin,Houvin-Houvigneul,France,2.3827724999999997,50.2976119
+3 DIVISION: 13 Battalion King's Liverpool Regiment,40.0,AWD0002amq,1917-02-14,Houvin-Houvigneul,Houvin-Houvigneul,France,2.3827724999999997,50.2976119
+3 DIVISION: 13 Battalion King's Liverpool Regiment,40.0,AWD0002amq,1917-02-15,Houvin-Houvigneul,Houvin-Houvigneul,France,2.3827724999999997,50.2976119
+3 DIVISION: 13 Battalion King's Liverpool Regiment,40.0,AWD0002amq,1917-02-16,Houvin-Houvigneul,Houvin-Houvigneul,France,2.3827724999999997,50.2976119
+3 DIVISION: 13 Battalion King's Liverpool Regiment,40.0,AWD0002amq,1917-02-17,Houvin-Houvigneul,Houvin-Houvigneul,France,2.3827724999999997,50.2976119
+3 DIVISION: 13 Battalion King's Liverpool Regiment,40.0,AWD0002amq,1917-02-18,Houvin-Houvigneul,Houvin-Houvigneul,France,2.3827724999999997,50.2976119
+3 DIVISION: 13 Battalion King's Liverpool Regiment,40.0,AWD0002amq,1917-02-19,Houvin-Houvigneul,Houvin-Houvigneul,France,2.3827724999999997,50.2976119
+3 DIVISION: 13 Battalion King's Liverpool Regiment,40.0,AWD0002amq,1917-02-19,Wanquetin,Wanquetin,France,2.6129655,50.2762664
+3 DIVISION: 13 Battalion King's Liverpool Regiment,40.0,AWD0002amq,1917-02-20,Wanquetin,Wanquetin,France,2.6129655,50.2762664
+3 DIVISION: 13 Battalion King's Liverpool Regiment,40.0,AWD0002amq,1917-02-20,Houvin-Houvigneul,Houvin-Houvigneul,France,2.3827724999999997,50.2976119
+3 DIVISION: 13 Battalion King's Liverpool Regiment,40.0,AWD0002amq,1917-02-21,Houvin-Houvigneul,Houvin-Houvigneul,France,2.3827724999999997,50.2976119
+3 DIVISION: 13 Battalion King's Liverpool Regiment,40.0,AWD0002amq,1917-02-21,Liencourt,Liencourt,France,2.4544955,50.2711136
+3 DIVISION: 13 Battalion King's Liverpool Regiment,40.0,AWD0002amq,1917-02-22,Houvin-Houvigneul,Houvin-Houvigneul,France,2.3827724999999997,50.2976119
+3 DIVISION: 13 Battalion King's Liverpool Regiment,40.0,AWD0002amq,1917-02-23,Wanquetin,Wanquetin,France,2.6129655,50.2762664
+3 DIVISION: 13 Battalion King's Liverpool Regiment,40.0,AWD0002amq,1917-02-23,Houvin-Houvigneul,Houvin-Houvigneul,France,2.3827724999999997,50.2976119
+3 DIVISION: 13 Battalion King's Liverpool Regiment,40.0,AWD0002amq,1917-02-24,Wanquetin,Wanquetin,France,2.6129655,50.2762664
+3 DIVISION: 13 Battalion King's Liverpool Regiment,40.0,AWD0002amq,1917-02-24,Houvin-Houvigneul,Houvin-Houvigneul,France,2.3827724999999997,50.2976119
+3 DIVISION: 13 Battalion King's Liverpool Regiment,41.0,AWD0002amj,1917-02-28,Houvin-Houvigneul,Houvin-Houvigneul,France,2.3827724999999997,50.2976119
+3 DIVISION: 13 Battalion King's Liverpool Regiment,41.0,AWD0002amj,1917-02-28,Denier,Denier,France,2.4433849,50.2873071
+3 DIVISION: 13 Battalion King's Liverpool Regiment,42.0,AWD0002anu,1917-03-01,Denier,Denier,France,2.4433849,50.2873071
+3 DIVISION: 13 Battalion King's Liverpool Regiment,42.0,AWD0002anu,1917-03-02,Denier,Denier,France,2.4433849,50.2873071
+3 DIVISION: 13 Battalion King's Liverpool Regiment,42.0,AWD0002anu,1917-03-02,Wanquetin,Wanquetin,France,2.6129655,50.2762664
+3 DIVISION: 13 Battalion King's Liverpool Regiment,42.0,AWD0002anu,1917-03-03,Denier,Denier,France,2.4433849,50.2873071
+3 DIVISION: 13 Battalion King's Liverpool Regiment,42.0,AWD0002anu,1917-03-04,Denier,Denier,France,2.4433849,50.2873071
+3 DIVISION: 13 Battalion King's Liverpool Regiment,42.0,AWD0002anu,1917-03-05,Denier,Denier,France,2.4433849,50.2873071
+3 DIVISION: 13 Battalion King's Liverpool Regiment,42.0,AWD0002anu,1917-03-06,Denier,Denier,France,2.4433849,50.2873071
+3 DIVISION: 13 Battalion King's Liverpool Regiment,42.0,AWD0002anu,1917-03-08,Denier,Denier,France,2.4433849,50.2873071
+3 DIVISION: 13 Battalion King's Liverpool Regiment,42.0,AWD0002anu,1917-03-09,Denier,Denier,France,2.4433849,50.2873071
+3 DIVISION: 13 Battalion King's Liverpool Regiment,42.0,AWD0002anu,1917-03-10,Givenchy le Noble,Givenchy-le-Noble,France,2.4970847,50.3015092
+3 DIVISION: 13 Battalion King's Liverpool Regiment,42.0,AWD0002anu,1917-03-10,Denier,Denier,France,2.4433849,50.2873071
+3 DIVISION: 13 Battalion King's Liverpool Regiment,43.0,AWD0002aoq,1917-03-11,Denier,Denier,France,2.4433849,50.2873071
+3 DIVISION: 13 Battalion King's Liverpool Regiment,43.0,AWD0002aoq,1917-03-12,Denier,Denier,France,2.4433849,50.2873071
+3 DIVISION: 13 Battalion King's Liverpool Regiment,43.0,AWD0002aoq,1917-03-13,Denier,Denier,France,2.4433849,50.2873071
+3 DIVISION: 13 Battalion King's Liverpool Regiment,43.0,AWD0002aoq,1917-03-14,Denier,Denier,France,2.4433849,50.2873071
+3 DIVISION: 13 Battalion King's Liverpool Regiment,43.0,AWD0002aoq,1917-03-16,Denier,Denier,France,2.4433849,50.2873071
+3 DIVISION: 13 Battalion King's Liverpool Regiment,43.0,AWD0002aoq,1917-03-16,Wanquetin,Wanquetin,France,2.6129655,50.2762664
+3 DIVISION: 13 Battalion King's Liverpool Regiment,43.0,AWD0002aoq,1917-03-16,Liencourt,Liencourt,France,2.4544955,50.2711136
+3 DIVISION: 13 Battalion King's Liverpool Regiment,43.0,AWD0002aoq,1917-03-16,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,43.0,AWD0002aoq,1917-03-17,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,43.0,AWD0002aoq,1917-03-18,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,43.0,AWD0002aoq,1917-03-19,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,43.0,AWD0002aoq,1917-03-20,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,43.0,AWD0002aoq,1917-03-21,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,43.0,AWD0002aoq,1917-03-22,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,43.0,AWD0002aoq,1917-03-23,Saint Sauveur,Saint-Sauveur-d'Émalleville,France,0.3034048,49.6143266
+3 DIVISION: 13 Battalion King's Liverpool Regiment,43.0,AWD0002aoq,1917-03-24,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,44.0,AWD0002an3,1917-03-26,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,44.0,AWD0002an3,1917-03-27,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,44.0,AWD0002an3,1917-03-28,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,44.0,AWD0002an3,1917-03-30,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,44.0,AWD0002an3,1917-03-31,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,45.0,AWD0002ank,1917-04-01,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,45.0,AWD0002ank,1917-04-02,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,45.0,AWD0002ank,1917-04-03,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,45.0,AWD0002ank,1917-04-03,Wanquetin,Wanquetin,France,2.6129655,50.2762664
+3 DIVISION: 13 Battalion King's Liverpool Regiment,45.0,AWD0002ank,1917-04-03,Saint Vaast,Neuville-Saint-Vaast,France,2.7602564,50.3552237
+3 DIVISION: 13 Battalion King's Liverpool Regiment,45.0,AWD0002ank,1917-04-04,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,45.0,AWD0002ank,1917-04-06,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,45.0,AWD0002ank,1917-04-07,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,45.0,AWD0002ank,1917-04-08,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,46.0,AWD0002aoa,1917-04-09,Harfleur Trench,Harfleur,France,0.20014099999999999,49.5075158
+3 DIVISION: 13 Battalion King's Liverpool Regiment,46.0,AWD0002aoa,1917-04-09,Tilloy Wood,Tilloy,France,1.5803775,50.1391369
+3 DIVISION: 13 Battalion King's Liverpool Regiment,46.0,AWD0002aoa,1917-04-09,Tilloy,Tilloy,France,1.5803775,50.1391369
+3 DIVISION: 13 Battalion King's Liverpool Regiment,46.0,AWD0002aoa,1917-04-10,Tilloy,Tilloy,France,1.5803775,50.1391369
+3 DIVISION: 13 Battalion King's Liverpool Regiment,46.0,AWD0002aoa,1917-04-11,Bois de Boeufs,Bois de la Fosse aux Boeufs,France,0.620881,47.5196148
+3 DIVISION: 13 Battalion King's Liverpool Regiment,46.0,AWD0002aoa,1917-04-13,Guemappe,Guemappe,FR,2.88984,50.25428
+3 DIVISION: 13 Battalion King's Liverpool Regiment,46.0,AWD0002aoa,1917-04-13,Wancourt,Wancourt,France,2.8720251,50.2473392
+3 DIVISION: 13 Battalion King's Liverpool Regiment,46.0,AWD0002aoa,1917-04-14,Bois de Boeufs,Bois de la Fosse aux Boeufs,France,0.620881,47.5196148
+3 DIVISION: 13 Battalion King's Liverpool Regiment,47.0,AWD0002alp,1917-04-14,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,47.0,AWD0002alp,1917-04-15,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,47.0,AWD0002alp,1917-04-16,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,47.0,AWD0002alp,1917-04-17,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,47.0,AWD0002alp,1917-04-18,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,47.0,AWD0002alp,1917-04-19,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,47.0,AWD0002alp,1917-04-20,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,47.0,AWD0002alp,1917-04-20,Duisans,Duisans,France,2.6881101,50.3059788
+3 DIVISION: 13 Battalion King's Liverpool Regiment,47.0,AWD0002alp,1917-04-21,Duisans,Duisans,France,2.6881101,50.3059788
+3 DIVISION: 13 Battalion King's Liverpool Regiment,47.0,AWD0002alp,1917-04-21,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,47.0,AWD0002alp,1917-04-23,Duisans,Duisans,France,2.6881101,50.3059788
+3 DIVISION: 13 Battalion King's Liverpool Regiment,47.0,AWD0002alp,1917-04-25,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,47.0,AWD0002alp,1917-04-26,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,47.0,AWD0002alp,1917-04-27,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,47.0,AWD0002alp,1917-04-28,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,48.0,AWD0002al7,1917-04-29,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,48.0,AWD0002al7,1917-04-30,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,49.0,AWD0002an2,1917-05-01,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,50.0,AWD0002am6,1917-05-08,Field,Field,IT,12.69806,46.47139
+3 DIVISION: 13 Battalion King's Liverpool Regiment,50.0,AWD0002am6,1917-05-08,Arras,Arras,Germany,12.8976665,51.0540173
+3 DIVISION: 13 Battalion King's Liverpool Regiment,50.0,AWD0002am6,1917-05-15,Monchy,Monchy,France,1.9821057,49.3976954
+3 DIVISION: 13 Battalion King's Liverpool Regiment,50.0,AWD0002am6,1917-05-15,Simencourt,Simencourt,France,2.643434,50.2571763
+3 DIVISION: 13 Battalion King's Liverpool Regiment,50.0,AWD0002am6,1917-05-17,Simencourt,Simencourt,France,2.643434,50.2571763
+3 DIVISION: 13 Battalion King's Liverpool Regiment,50.0,AWD0002am6,1917-05-18,Simencourt,Simencourt,France,2.643434,50.2571763
+3 DIVISION: 13 Battalion King's Liverpool Regiment,50.0,AWD0002am6,1917-05-18,Beaufort,Beaufort,France,6.5732569,45.7174453
+3 DIVISION: 13 Battalion King's Liverpool Regiment,50.0,AWD0002am6,1917-05-20,Beaufort,Beaufort,France,6.5732569,45.7174453
+3 DIVISION: 13 Battalion King's Liverpool Regiment,50.0,AWD0002am6,1917-05-21,Beaufort,Beaufort,France,6.5732569,45.7174453
+3 DIVISION: 13 Battalion King's Liverpool Regiment,51.0,AWD0002anh,1917-05-23,Beaufort,Beaufort,France,6.5732569,45.7174453
+3 DIVISION: 13 Battalion King's Liverpool Regiment,51.0,AWD0002anh,1917-05-24,Beaufort,Beaufort,France,6.5732569,45.7174453
+3 DIVISION: 13 Battalion King's Liverpool Regiment,51.0,AWD0002anh,1917-05-25,Beaufort,Beaufort,France,6.5732569,45.7174453
+3 DIVISION: 13 Battalion King's Liverpool Regiment,51.0,AWD0002anh,1917-05-27,Beaufort,Beaufort,France,6.5732569,45.7174453
+3 DIVISION: 13 Battalion King's Liverpool Regiment,51.0,AWD0002anh,1917-05-28,Beaufort,Beaufort,France,6.5732569,45.7174453
+3 DIVISION: 13 Battalion King's Liverpool Regiment,51.0,AWD0002anh,1917-05-29,Beaufort,Beaufort,France,6.5732569,45.7174453
+3 DIVISION: 13 Battalion King's Liverpool Regiment,51.0,AWD0002anh,1917-05-30,Beaufort,Beaufort,France,6.5732569,45.7174453
+3 DIVISION: 13 Battalion King's Liverpool Regiment,51.0,AWD0002anh,1917-05-30,Lattre Saint Quentin,Lattre-Saint-Quentin,France,2.5799494,50.2881873
+3 DIVISION: 13 Battalion King's Liverpool Regiment,52.0,AWD0002amv,1917-06-01,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,52.0,AWD0002amv,1917-06-01,Harbarcq,,France,2.6053838000000002,50.3040895
+3 DIVISION: 13 Battalion King's Liverpool Regiment,53.0,AWD0002akr,1917-06-08,Field,Field,IT,12.69806,46.47139
+3 DIVISION: 13 Battalion King's Liverpool Regiment,53.0,AWD0002akr,1917-06-19,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,54.0,AWD0002am4,1917-06-20,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,54.0,AWD0002am4,1917-06-20,Fosseux,Fosseux,France,2.5628048999999997,50.2562124
+3 DIVISION: 13 Battalion King's Liverpool Regiment,54.0,AWD0002am4,1917-06-21,Fosseux,Fosseux,France,2.5628048999999997,50.2562124
+3 DIVISION: 13 Battalion King's Liverpool Regiment,54.0,AWD0002am4,1917-06-23,Fosseux,Fosseux,France,2.5628048999999997,50.2562124
+3 DIVISION: 13 Battalion King's Liverpool Regiment,54.0,AWD0002am4,1917-06-24,Fosseux,Fosseux,France,2.5628048999999997,50.2562124
+3 DIVISION: 13 Battalion King's Liverpool Regiment,54.0,AWD0002am4,1917-06-25,Fosseux,Fosseux,France,2.5628048999999997,50.2562124
+3 DIVISION: 13 Battalion King's Liverpool Regiment,54.0,AWD0002am4,1917-06-26,Fosseux,Fosseux,France,2.5628048999999997,50.2562124
+3 DIVISION: 13 Battalion King's Liverpool Regiment,54.0,AWD0002am4,1917-06-27,Fosseux,Fosseux,France,2.5628048999999997,50.2562124
+3 DIVISION: 13 Battalion King's Liverpool Regiment,54.0,AWD0002am4,1917-06-28,Fosseux,Fosseux,France,2.5628048999999997,50.2562124
+3 DIVISION: 13 Battalion King's Liverpool Regiment,54.0,AWD0002am4,1917-06-29,Fosseux,Fosseux,France,2.5628048999999997,50.2562124
+3 DIVISION: 13 Battalion King's Liverpool Regiment,54.0,AWD0002am4,1917-06-30,Achiet-le-Petit,Achiet-le-Petit,France,2.7511313,50.1228492
+3 DIVISION: 13 Battalion King's Liverpool Regiment,55.0,AWD0002an0,1917-07-01,Achiet-le-Petit,Achiet-le-Petit,France,2.7511313,50.1228492
+3 DIVISION: 13 Battalion King's Liverpool Regiment,55.0,AWD0002an0,1917-07-01,Beugny,Beugny,France,2.9346405,50.1200292
+3 DIVISION: 13 Battalion King's Liverpool Regiment,55.0,AWD0002an0,1917-07-02,Beugny,Beugny,France,2.9346405,50.1200292
+3 DIVISION: 13 Battalion King's Liverpool Regiment,55.0,AWD0002an0,1917-07-02,Demicourt,Remicourt,BE,5.32785,50.68069000000001
+3 DIVISION: 13 Battalion King's Liverpool Regiment,55.0,AWD0002an0,1917-07-03,Field,Field,IT,12.69806,46.47139
+3 DIVISION: 13 Battalion King's Liverpool Regiment,56.0,AWD0002akq,1917-07-06,Field,Field,IT,12.69806,46.47139
+3 DIVISION: 13 Battalion King's Liverpool Regiment,56.0,AWD0002akq,1917-07-07,Demicourt,Remicourt,BE,5.32785,50.68069000000001
+3 DIVISION: 13 Battalion King's Liverpool Regiment,56.0,AWD0002akq,1917-07-08,Doignies,Doignies,France,3.0130632999999998,50.1290502
+3 DIVISION: 13 Battalion King's Liverpool Regiment,56.0,AWD0002akq,1917-07-10,Doignies,Doignies,France,3.0130632999999998,50.1290502
+3 DIVISION: 13 Battalion King's Liverpool Regiment,57.0,AWD0002ap8,1917-07-14,Field,Field,IT,12.69806,46.47139
+3 DIVISION: 13 Battalion King's Liverpool Regiment,57.0,AWD0002ap8,1917-07-14,Doignies,Doignies,France,3.0130632999999998,50.1290502
+3 DIVISION: 13 Battalion King's Liverpool Regiment,58.0,AWD0002aop,1917-07-18,Field,Field,IT,12.69806,46.47139
+3 DIVISION: 13 Battalion King's Liverpool Regiment,59.0,AWD0002alu,1917-07-20,Field,Field,IT,12.69806,46.47139
+3 DIVISION: 13 Battalion King's Liverpool Regiment,59.0,AWD0002alu,1917-07-22,Velu,Combe du Velu,France,5.8347831,46.1534097
+3 DIVISION: 13 Battalion King's Liverpool Regiment,59.0,AWD0002alu,1917-07-22,Hermies,Hermies,France,2.5290614,44.5566109
+3 DIVISION: 13 Battalion King's Liverpool Regiment,60.0,AWD0002aom,1917-07-23,Velu,Combe du Velu,France,5.8347831,46.1534097
+3 DIVISION: 13 Battalion King's Liverpool Regiment,60.0,AWD0002aom,1917-07-24,Velu,Combe du Velu,France,5.8347831,46.1534097
+3 DIVISION: 13 Battalion King's Liverpool Regiment,61.0,AWD0002amu,1917-07-26,Velu,Combe du Velu,France,5.8347831,46.1534097
+3 DIVISION: 13 Battalion King's Liverpool Regiment,62.0,AWD0002ap6,1917-08-01,Demicourt,Remicourt,BE,5.32785,50.68069000000001
+3 DIVISION: 13 Battalion King's Liverpool Regiment,62.0,AWD0002ap6,1917-08-02,Demicourt,Remicourt,BE,5.32785,50.68069000000001
+3 DIVISION: 13 Battalion King's Liverpool Regiment,62.0,AWD0002ap6,1917-08-02,Velu,Haut de la Velue,France,4.3191013,48.3758308
+3 DIVISION: 13 Battalion King's Liverpool Regiment,62.0,AWD0002ap6,1917-08-03,Velu,Haut de la Velue,France,4.3191013,48.3758308
+3 DIVISION: 13 Battalion King's Liverpool Regiment,62.0,AWD0002ap6,1917-08-04,Velu,Haut de la Velue,France,4.3191013,48.3758308
+3 DIVISION: 13 Battalion King's Liverpool Regiment,62.0,AWD0002ap6,1917-08-05,Velu,Haut de la Velue,France,4.3191013,48.3758308
+3 DIVISION: 13 Battalion King's Liverpool Regiment,62.0,AWD0002ap6,1917-08-06,Velu,Haut de la Velue,France,4.3191013,48.3758308
+3 DIVISION: 13 Battalion King's Liverpool Regiment,62.0,AWD0002ap6,1917-08-07,Velu,Haut de la Velue,France,4.3191013,48.3758308
+3 DIVISION: 13 Battalion King's Liverpool Regiment,63.0,AWD0002alk,1917-08-07,Lagnicourt,Lagnicourt-Marcel,France,2.9570663,50.1584314
+3 DIVISION: 13 Battalion King's Liverpool Regiment,64.0,AWD0002akk,1917-08-12,Field,Field,IT,12.69806,46.47139
+3 DIVISION: 13 Battalion King's Liverpool Regiment,64.0,AWD0002akk,1917-08-16,Fremicourt,Frémicourt,France,2.9017375,50.1113349
+3 DIVISION: 13 Battalion King's Liverpool Regiment,64.0,AWD0002akk,1917-08-20,Beugny,Beugny,France,2.9346405,50.1200292
+3 DIVISION: 13 Battalion King's Liverpool Regiment,64.0,AWD0002akk,1917-08-21,Fremicourt,Frémicourt,France,2.9017375,50.1113349
+3 DIVISION: 13 Battalion King's Liverpool Regiment,65.0,AWD0002ane,1917-08-28,Lagnicourt,Lagnicourt-Marcel,France,2.9570663,50.1584314
+3 DIVISION: 13 Battalion King's Liverpool Regiment,66.0,AWD0002akl,1917-09-01,Lagnicourt,Lagnicourt-Marcel,France,2.9570663,50.1584314
+3 DIVISION: 13 Battalion King's Liverpool Regiment,66.0,AWD0002akl,1917-09-05,Fremicourt,Frémicourt,France,2.9017375,50.1113349
+3 DIVISION: 13 Battalion King's Liverpool Regiment,66.0,AWD0002akl,1917-09-05,Le Transloy,Le Transloy,France,2.8896279,50.0580588
+3 DIVISION: 13 Battalion King's Liverpool Regiment,66.0,AWD0002akl,1917-09-05,Beaulencourt,Beaulencourt,France,2.8798138,50.0754284
+3 DIVISION: 13 Battalion King's Liverpool Regiment,66.0,AWD0002akl,1917-09-07,Beaulencourt,Beaulencourt,France,2.8798138,50.0754284
+3 DIVISION: 13 Battalion King's Liverpool Regiment,66.0,AWD0002akl,1917-09-10,Beaulencourt,Beaulencourt,France,2.8798138,50.0754284
+3 DIVISION: 13 Battalion King's Liverpool Regiment,66.0,AWD0002akl,1917-09-11,Beaulencourt,Beaulencourt,France,2.8798138,50.0754284
+3 DIVISION: 13 Battalion King's Liverpool Regiment,67.0,AWD0002alz,1917-09-13,Beaulencourt,Beaulencourt,France,2.8798138,50.0754284
+3 DIVISION: 13 Battalion King's Liverpool Regiment,67.0,AWD0002alz,1917-09-14,Beaulencourt,Beaulencourt,France,2.8798138,50.0754284
+3 DIVISION: 13 Battalion King's Liverpool Regiment,67.0,AWD0002alz,1917-09-15,Beaulencourt,Beaulencourt,France,2.8798138,50.0754284
+3 DIVISION: 13 Battalion King's Liverpool Regiment,67.0,AWD0002alz,1917-09-17,Beaulencourt,Beaulencourt,France,2.8798138,50.0754284
+3 DIVISION: 13 Battalion King's Liverpool Regiment,67.0,AWD0002alz,1917-09-17,Miraumont,Miraumont,France,2.7300664,50.0926291
+3 DIVISION: 13 Battalion King's Liverpool Regiment,67.0,AWD0002alz,1917-09-18,Miraumont,Miraumont,France,2.7300664,50.0926291
+3 DIVISION: 13 Battalion King's Liverpool Regiment,67.0,AWD0002alz,1917-09-18,Achiet le Petit,Achiet-le-Petit,France,2.7511313,50.1228492
+3 DIVISION: 13 Battalion King's Liverpool Regiment,67.0,AWD0002alz,1917-09-18,Bapaume,Bapaume,France,2.8497506,50.1038538
+3 DIVISION: 13 Battalion King's Liverpool Regiment,67.0,AWD0002alz,1917-09-18,Achiet le Grand,Achiet-le-Grand,France,2.7843609,50.1320114
+3 DIVISION: 13 Battalion King's Liverpool Regiment,67.0,AWD0002alz,1917-09-18,Watou,Watou,Belgium,2.6202796,50.8585545
+3 DIVISION: 13 Battalion King's Liverpool Regiment,67.0,AWD0002alz,1917-09-19,Watou,Watou,Belgium,2.6202796,50.8585545
+3 DIVISION: 13 Battalion King's Liverpool Regiment,67.0,AWD0002alz,1917-09-19,Brandhoek,Brandhoek,Belgium,2.7902226,50.8551517
+3 DIVISION: 13 Battalion King's Liverpool Regiment,68.0,AWD0002alc,1917-09-22,Brandhoek,Brandhoek,Belgium,2.7902226,50.8551517
+3 DIVISION: 13 Battalion King's Liverpool Regiment,68.0,AWD0002alc,1917-09-22,Ypres,Ypres,Belgium,2.8846046999999997,50.8521947
+3 DIVISION: 13 Battalion King's Liverpool Regiment,68.0,AWD0002alc,1917-09-22,Mannebeke Wood,Abbey Wood,United Kingdom,0.1140504,51.487621
+3 DIVISION: 13 Battalion King's Liverpool Regiment,68.0,AWD0002alc,1917-09-22,Sans Souci,Sans Souci,France,1.5533226,46.7525081
+3 DIVISION: 13 Battalion King's Liverpool Regiment,68.0,AWD0002alc,1917-09-22,Potsdam,Potsdam,Germany,9.4328681,54.4026687
+3 DIVISION: 13 Battalion King's Liverpool Regiment,68.0,AWD0002alc,1917-09-23,Brandhoek,Brandhoek,Belgium,2.7902226,50.8551517
+3 DIVISION: 13 Battalion King's Liverpool Regiment,68.0,AWD0002alc,1917-09-23,Line,Luenne,DE,7.4265300000000005,52.42958
+3 DIVISION: 13 Battalion King's Liverpool Regiment,68.0,AWD0002alc,1917-09-24,Potsdam,Potsdam,Germany,9.4328681,54.4026687
+3 DIVISION: 13 Battalion King's Liverpool Regiment,68.0,AWD0002alc,1917-09-26,Low Farm,Low Farm,United Kingdom,1.6161683,52.504323
+3 DIVISION: 13 Battalion King's Liverpool Regiment,69.0,AWD0002ao1,1917-09-28,Line,Luenne,DE,7.4265300000000005,52.42958
+3 DIVISION: 13 Battalion King's Liverpool Regiment,69.0,AWD0002ao1,1917-09-30,Vlamertinghe,Vlamertinge,BE,2.82024,50.85485
+3 DIVISION: 13 Battalion King's Liverpool Regiment,71.0,AWD0002amm,1917-10-17,Vaulx-Vraucourt,Vaulx-Vraucourt,France,2.9068006,50.1486717
+3 DIVISION: 13 Battalion King's Liverpool Regiment,71.0,AWD0002amm,1917-10-21,Vaulx,Vaulx,Belgium,3.426172,50.589889
+3 DIVISION: 13 Battalion King's Liverpool Regiment,71.0,AWD0002amm,1917-10-22,Vaulx,Vaulx,Belgium,3.426172,50.589889
+3 DIVISION: 13 Battalion King's Liverpool Regiment,71.0,AWD0002amm,1917-10-22,Noreuil,Noreuil,France,2.9351756,50.1703027
+3 DIVISION: 13 Battalion King's Liverpool Regiment,72.0,AWD0002ao2,1917-10-27,Noreuil,Noreuil,France,2.9351756,50.1703027
+3 DIVISION: 13 Battalion King's Liverpool Regiment,72.0,AWD0002ao2,1917-10-31,Beugnatre,Beugnâtre,France,2.875266,50.1285468
+3 DIVISION: 13 Battalion King's Liverpool Regiment,73.0,AWD0002ao3,1917-11-01,Beugnatre,Beugnâtre,France,2.875266,50.1285468
+3 DIVISION: 13 Battalion King's Liverpool Regiment,73.0,AWD0002ao3,1917-11-02,Beugnatre,Beugnâtre,France,2.875266,50.1285468
+3 DIVISION: 13 Battalion King's Liverpool Regiment,75.0,AWD0002al4,1917-11-24,Beugnatre,Beugnâtre,France,2.875266,50.1285468
+3 DIVISION: 13 Battalion King's Liverpool Regiment,75.0,AWD0002al4,1917-11-29,Lagnicourt,Lagnicourt-Marcel,France,2.9570663,50.1584314
+3 DIVISION: 13 Battalion King's Liverpool Regiment,76.0,AWD0002am3,1917-12-01,Lagnicourt,Lagnicourt-Marcel,France,2.9570663,50.1584314
+3 DIVISION: 13 Battalion King's Liverpool Regiment,76.0,AWD0002am3,1917-12-10,Mory,Mory,France,2.8556301,50.157595
+3 DIVISION: 13 Battalion King's Liverpool Regiment,78.0,AWD0002aoy,1917-12-17,Ervillers,Ervillers,France,2.8229131,50.1601592
+3 DIVISION: 13 Battalion King's Liverpool Regiment,78.0,AWD0002aoy,1917-12-19,Courcelles,Courcelles-le-Comte,France,2.7741831,50.163614
+3 DIVISION: 13 Battalion King's Liverpool Regiment,78.0,AWD0002aoy,1917-12-20,Courcelles,Courcelles-le-Comte,France,2.7741831,50.163614
+3 DIVISION: 13 Battalion King's Liverpool Regiment,78.0,AWD0002aoy,1917-12-21,Courcelles,Courcelles-le-Comte,France,2.7741831,50.163614
+3 DIVISION: 13 Battalion King's Liverpool Regiment,78.0,AWD0002aoy,1917-12-22,Courcelles,Courcelles-le-Comte,France,2.7741831,50.163614
+3 DIVISION: 13 Battalion King's Liverpool Regiment,78.0,AWD0002aoy,1917-12-23,Mory,Mory,France,2.8556301,50.157595
+3 DIVISION: 13 Battalion King's Liverpool Regiment,79.0,AWD0002anq,1917-12-25,Mory,Mory,France,2.8556301,50.157595
+3 DIVISION: 13 Battalion King's Liverpool Regiment,79.0,AWD0002anq,1917-12-27,Mory,Mory,France,2.8556301,50.157595
+3 DIVISION: 13 Battalion King's Liverpool Regiment,79.0,AWD0002anq,1917-12-27,Mercatel,Mercatel,France,2.795301,50.234928
+3 DIVISION: 13 Battalion King's Liverpool Regiment,79.0,AWD0002anq,1917-12-31,Mercatel,Mercatel,France,2.795301,50.234928
+3 DIVISION: 13 Battalion King's Liverpool Regiment,81.0,AWD0002and,1918-01-01,Mercatel,Mercatel,France,2.795301,50.234928
+3 DIVISION: 13 Battalion King's Liverpool Regiment,81.0,AWD0002and,1918-01-01,Durham Lines,County Durham,United Kingdom,-1.75,54.666667
+3 DIVISION: 13 Battalion King's Liverpool Regiment,81.0,AWD0002and,1918-01-03,Mercatel,Mercatel,France,2.795301,50.234928
+3 DIVISION: 13 Battalion King's Liverpool Regiment,81.0,AWD0002and,1918-01-07,Mercatel,Mercatel,France,2.795301,50.234928
+3 DIVISION: 13 Battalion King's Liverpool Regiment,81.0,AWD0002and,1918-01-12,Mercatel,Mercatel,France,2.795301,50.234928
+3 DIVISION: 13 Battalion King's Liverpool Regiment,82.0,AWD0002alt,1918-01-13,Mercatel,Mercatel,France,2.795301,50.234928
+3 DIVISION: 13 Battalion King's Liverpool Regiment,82.0,AWD0002alt,1918-01-15,Mercatel,Mercatel,France,2.795301,50.234928
+3 DIVISION: 13 Battalion King's Liverpool Regiment,82.0,AWD0002alt,1918-01-18,Mercatel,Mercatel,France,2.795301,50.234928
+3 DIVISION: 13 Battalion King's Liverpool Regiment,82.0,AWD0002alt,1918-01-21,Mercatel,Mercatel,France,2.795301,50.234928
+3 DIVISION: 13 Battalion King's Liverpool Regiment,82.0,AWD0002alt,1918-01-23,Durham Lines,County Durham,United Kingdom,-1.75,54.666667
+3 DIVISION: 13 Battalion King's Liverpool Regiment,83.0,AWD0002akw,1918-01-24,Mercatel,Mercatel,France,2.795301,50.234928
+3 DIVISION: 13 Battalion King's Liverpool Regiment,84.0,AWD0002anm,1918-02-03,Hindenburg Line,Klein Hindenburg,Germany,11.9456259,52.760866
+3 DIVISION: 13 Battalion King's Liverpool Regiment,86.0,AWD0002ao0,1918-02-21,Shaft Trench,Trench Green,United Kingdom,-1.013536,51.494467
+3 DIVISION: 13 Battalion King's Liverpool Regiment,94.0,AWD0002alx,1918-03-01,Durham Lines,County Durham,United Kingdom,-1.75,54.666667
+3 DIVISION: 13 Battalion King's Liverpool Regiment,94.0,AWD0002alx,1918-03-02,Durham Lines,County Durham,United Kingdom,-1.75,54.666667
+3 DIVISION: 13 Battalion King's Liverpool Regiment,94.0,AWD0002alx,1918-03-03,Durham Lines,County Durham,United Kingdom,-1.75,54.666667
+3 DIVISION: 13 Battalion King's Liverpool Regiment,94.0,AWD0002alx,1918-03-04,Durham Lines,County Durham,United Kingdom,-1.75,54.666667
+3 DIVISION: 13 Battalion King's Liverpool Regiment,96.0,AWD0002alm,1918-03-17,Shaft Trench,Trench Green,United Kingdom,-1.013536,51.494467
+3 DIVISION: 13 Battalion King's Liverpool Regiment,96.0,AWD0002alm,1918-03-19,Shaft Trench,Trench Green,United Kingdom,-1.013536,51.494467
+3 DIVISION: 13 Battalion King's Liverpool Regiment,96.0,AWD0002alm,1918-03-21,Shaft Trench,Trench Green,United Kingdom,-1.013536,51.494467
+3 DIVISION: 13 Battalion King's Liverpool Regiment,96.0,AWD0002alm,1918-03-21,Earls Court,Earls Court,GB,-0.19801,51.49159
+3 DIVISION: 13 Battalion King's Liverpool Regiment,97.0,AWD0002any,1918-03-22,Shaft Trench,Trench Green,United Kingdom,-1.013536,51.494467
+3 DIVISION: 13 Battalion King's Liverpool Regiment,97.0,AWD0002any,1918-03-22,Croisilles,Croisilles,France,2.8783364,50.199782
+3 DIVISION: 13 Battalion King's Liverpool Regiment,97.0,AWD0002any,1918-03-22,Grey Street,Key Street,GB,0.69893,51.3454
+3 DIVISION: 13 Battalion King's Liverpool Regiment,97.0,AWD0002any,1918-03-22,Earls Court,Earls Court,GB,-0.19801,51.49159
+3 DIVISION: 13 Battalion King's Liverpool Regiment,98.0,AWD0002an8,1918-03-22,Henin,Henin-sur-Cojeul,FR,2.83567,50.22426
+3 DIVISION: 13 Battalion King's Liverpool Regiment,98.0,AWD0002an8,1918-03-23,Henin,Henin-sur-Cojeul,FR,2.83567,50.22426
+3 DIVISION: 13 Battalion King's Liverpool Regiment,98.0,AWD0002an8,1918-03-24,Henin,Henin-sur-Cojeul,FR,2.83567,50.22426
+3 DIVISION: 13 Battalion King's Liverpool Regiment,100.0,AWD0002anr,1918-03-29,Monchiet,Monchiet,France,2.6278798,50.2412195
+3 DIVISION: 13 Battalion King's Liverpool Regiment,100.0,AWD0002anr,1918-03-31,Ivergny,Ivergny,France,2.39237,50.23869
+3 DIVISION: 13 Battalion King's Liverpool Regiment,102.0,AWD0002ana,1918-04-01,Ivergny,Ivergny,France,2.39237,50.23869
+3 DIVISION: 13 Battalion King's Liverpool Regiment,102.0,AWD0002ana,1918-04-01,Houdain,Houdain,France,2.5367842,50.4538126
+3 DIVISION: 13 Battalion King's Liverpool Regiment,102.0,AWD0002ana,1918-04-02,Houdain,Houdain,France,2.5367842,50.4538126
+3 DIVISION: 13 Battalion King's Liverpool Regiment,102.0,AWD0002ana,1918-04-03,Houdain,Houdain,France,2.5367842,50.4538126
+3 DIVISION: 13 Battalion King's Liverpool Regiment,102.0,AWD0002ana,1918-04-06,Coupigny,Coupigny,France,1.6687614,49.7428679
+3 DIVISION: 13 Battalion King's Liverpool Regiment,102.0,AWD0002ana,1918-04-07,Coupigny,Coupigny,France,1.6687614,49.7428679
+3 DIVISION: 13 Battalion King's Liverpool Regiment,102.0,AWD0002ana,1918-04-07,Houchin,Houchin,France,2.6195516,50.4823382
+3 DIVISION: 13 Battalion King's Liverpool Regiment,102.0,AWD0002ana,1918-04-09,Coupigny,Coupigny,France,1.6687614,49.7428679
+3 DIVISION: 13 Battalion King's Liverpool Regiment,102.0,AWD0002ana,1918-04-09,Bethune,Bethune,FR,2.63333,50.53333
+3 DIVISION: 13 Battalion King's Liverpool Regiment,102.0,AWD0002ana,1918-04-09,Gorre,Gorre,France,0.9836111,45.7413889
+3 DIVISION: 13 Battalion King's Liverpool Regiment,102.0,AWD0002ana,1918-04-10,Festubert Keep,Festubert,France,2.7365113,50.5426104
+3 DIVISION: 13 Battalion King's Liverpool Regiment,105.0,AWD0002an6,1918-04-18,Annezin,Annezin,France,2.6193,50.5415
+3 DIVISION: 13 Battalion King's Liverpool Regiment,106.0,AWD0002amo,1918-04-21,Annezin,Annezin,France,2.6193,50.5415
+3 DIVISION: 13 Battalion King's Liverpool Regiment,106.0,AWD0002amo,1918-04-23,Annezin,Annezin,France,2.6193,50.5415
+3 DIVISION: 13 Battalion King's Liverpool Regiment,106.0,AWD0002amo,1918-04-30,Annezin,Annezin,France,2.6193,50.5415
+3 DIVISION: 13 Battalion King's Liverpool Regiment,119.0,AWD0002all,1918-05-01,Annezin,Annezin,France,2.6193,50.5415
+3 DIVISION: 13 Battalion King's Liverpool Regiment,119.0,AWD0002all,1918-05-02,Annezin,Annezin,France,2.6193,50.5415
+3 DIVISION: 13 Battalion King's Liverpool Regiment,119.0,AWD0002all,1918-05-02,Chocques,Chocques,France,2.5696057,50.5391865
+3 DIVISION: 13 Battalion King's Liverpool Regiment,120.0,AWD0002aku,1918-05-14,Chocques,Chocques,France,2.5696057,50.5391865
+3 DIVISION: 13 Battalion King's Liverpool Regiment,121.0,AWD0002ao7,1918-05-24,Dumbarton Line,Dumbarton,United Kingdom,-4.5696711,55.9441047
+3 DIVISION: 13 Battalion King's Liverpool Regiment,122.0,AWD0002aoe,1918-05-31,Chocques,Chocques,France,2.5696057,50.5391865
+3 DIVISION: 13 Battalion King's Liverpool Regiment,123.0,AWD0002alr,1918-06-01,Chocques,Chocques,France,2.5696057,50.5391865
+3 DIVISION: 13 Battalion King's Liverpool Regiment,123.0,AWD0002alr,1918-06-03,Chocques,Chocques,France,2.5696057,50.5391865
+3 DIVISION: 13 Battalion King's Liverpool Regiment,124.0,AWD0002akn,1918-06-15,Chocques,Chocques,France,2.5696057,50.5391865
+3 DIVISION: 13 Battalion King's Liverpool Regiment,125.0,AWD0002ani,1918-06-26,Chocques,Chocques,France,2.5696057,50.5391865
+3 DIVISION: 13 Battalion King's Liverpool Regiment,125.0,AWD0002ani,1918-06-27,Chocques,Chocques,France,2.5696057,50.5391865
+3 DIVISION: 13 Battalion King's Liverpool Regiment,125.0,AWD0002ani,1918-06-30,Chocques,Chocques,France,2.5696057,50.5391865
+3 DIVISION: 13 Battalion King's Liverpool Regiment,126.0,AWD0002anw,1918-07-01,Chocques,Chocques,France,2.5696057,50.5391865
+3 DIVISION: 13 Battalion King's Liverpool Regiment,126.0,AWD0002anw,1918-07-14,Chocques,Chocques,France,2.5696057,50.5391865
+3 DIVISION: 13 Battalion King's Liverpool Regiment,126.0,AWD0002anw,1918-07-15,Chocques,Chocques,France,2.5696057,50.5391865
+3 DIVISION: 13 Battalion King's Liverpool Regiment,127.0,AWD0002ako,1918-07-16,Chocques,Chocques,France,2.5696057,50.5391865
+3 DIVISION: 13 Battalion King's Liverpool Regiment,128.0,AWD0002ala,1918-08-01,Chocques,Chocques,France,2.5696057,50.5391865
+3 DIVISION: 13 Battalion King's Liverpool Regiment,128.0,AWD0002ala,1918-08-02,Chocques,Chocques,France,2.5696057,50.5391865
+3 DIVISION: 13 Battalion King's Liverpool Regiment,128.0,AWD0002ala,1918-08-04,Chocques,Chocques,France,2.5696057,50.5391865
+3 DIVISION: 13 Battalion King's Liverpool Regiment,128.0,AWD0002ala,1918-08-05,Raimbert,Rambert,FR,3.56996,46.29639
+3 DIVISION: 13 Battalion King's Liverpool Regiment,128.0,AWD0002ala,1918-08-09,Raimbert,Rambert,FR,3.56996,46.29639
+3 DIVISION: 13 Battalion King's Liverpool Regiment,128.0,AWD0002ala,1918-08-11,Raimbert,Rambert,FR,3.56996,46.29639
+3 DIVISION: 13 Battalion King's Liverpool Regiment,128.0,AWD0002ala,1918-08-14,Le Souich,Le Souich,France,2.3670141,50.222057
+3 DIVISION: 13 Battalion King's Liverpool Regiment,128.0,AWD0002ala,1918-08-15,Le Souich,Le Souich,France,2.3670141,50.222057
+3 DIVISION: 13 Battalion King's Liverpool Regiment,128.0,AWD0002ala,1918-08-17,Le Souich,Le Souich,France,2.3670141,50.222057
+3 DIVISION: 13 Battalion King's Liverpool Regiment,128.0,AWD0002ala,1918-08-17,Lucheux,Lucheux,France,2.4115339000000002,50.1969452
+3 DIVISION: 13 Battalion King's Liverpool Regiment,129.0,AWD0002amp,1918-08-18,Le Souich,Le Souich,France,2.3670141,50.222057
+3 DIVISION: 13 Battalion King's Liverpool Regiment,129.0,AWD0002amp,1918-08-20,Hannescamp,Hannescamps,France,2.6388693,50.1664061
+3 DIVISION: 13 Battalion King's Liverpool Regiment,129.0,AWD0002amp,1918-08-20,Bapaume,Bapaume,France,2.8497506,50.1038538
+3 DIVISION: 13 Battalion King's Liverpool Regiment,129.0,AWD0002amp,1918-08-20,Ayette,Ayette,France,2.7342306,50.1747091
+3 DIVISION: 13 Battalion King's Liverpool Regiment,129.0,AWD0002amp,1918-08-20,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 13 Battalion King's Liverpool Regiment,131.0,AWD0002an1,1918-08-23,Gomiecourt,Gomiecourt,FR,2.7989,50.14884
+3 DIVISION: 13 Battalion King's Liverpool Regiment,131.0,AWD0002an1,1918-08-24,Ayette,Ayette,France,2.7342306,50.1747091
+3 DIVISION: 13 Battalion King's Liverpool Regiment,131.0,AWD0002an1,1918-08-26,Ayette,Ayette,France,2.7342306,50.1747091
+3 DIVISION: 13 Battalion King's Liverpool Regiment,131.0,AWD0002an1,1918-08-27,Ayette,Ayette,France,2.7342306,50.1747091
+3 DIVISION: 13 Battalion King's Liverpool Regiment,131.0,AWD0002an1,1918-08-27,Boiry Saint Martin,Boiry-Saint-Martin,France,2.7588691,50.1992973
+3 DIVISION: 13 Battalion King's Liverpool Regiment,131.0,AWD0002an1,1918-08-29,Hamel Switch,Beaumont-Hamel,France,2.6567465,50.0839627
+3 DIVISION: 13 Battalion King's Liverpool Regiment,132.0,AWD0002ama,1918-08-31,Ecoust,Ecoust-Saint-Mein,FR,2.91236,50.18013
+3 DIVISION: 13 Battalion King's Liverpool Regiment,133.0,AWD0002al3,1918-09-01,Ecoust,Ecoust-Saint-Mein,FR,2.91236,50.18013
+3 DIVISION: 13 Battalion King's Liverpool Regiment,133.0,AWD0002al3,1918-09-03,Ervillers,Ervillers,France,2.8229131,50.1601592
+3 DIVISION: 13 Battalion King's Liverpool Regiment,133.0,AWD0002al3,1918-09-04,Ervillers,Ervillers,France,2.8229131,50.1601592
+3 DIVISION: 13 Battalion King's Liverpool Regiment,133.0,AWD0002al3,1918-09-05,Ervillers,Ervillers,France,2.8229131,50.1601592
+3 DIVISION: 13 Battalion King's Liverpool Regiment,133.0,AWD0002al3,1918-09-06,Ervillers,Ervillers,France,2.8229131,50.1601592
+3 DIVISION: 13 Battalion King's Liverpool Regiment,133.0,AWD0002al3,1918-09-12,Ervillers,Ervillers,France,2.8229131,50.1601592
+3 DIVISION: 13 Battalion King's Liverpool Regiment,134.0,AWD0002aob,1918-09-18,Knife Trench,Trench Green,United Kingdom,-1.013536,51.494467
+3 DIVISION: 13 Battalion King's Liverpool Regiment,136.0,AWD0002akj,1918-09-27,Bilhelm Trench,Trench Green,United Kingdom,-1.013536,51.494467
+3 DIVISION: 13 Battalion King's Liverpool Regiment,137.0,AWD0002am2,1918-10-02,Ribecourt,Ribecourt-la-Tour,FR,3.13077,50.11058
+3 DIVISION: 13 Battalion King's Liverpool Regiment,137.0,AWD0002am2,1918-10-07,Rumilly,Rumilly,France,2.01477,50.57651
+3 DIVISION: 13 Battalion King's Liverpool Regiment,137.0,AWD0002am2,1918-10-08,Rumilly,Rumilly,France,2.01477,50.57651
+3 DIVISION: 13 Battalion King's Liverpool Regiment,137.0,AWD0002am2,1918-10-10,Flesquieres,Flesquieres,FR,3.11593,50.122679999999995
+3 DIVISION: 13 Battalion King's Liverpool Regiment,137.0,AWD0002am2,1918-10-14,Noyelles,Noyelles,France,2.3966669,50.4615259
+3 DIVISION: 13 Battalion King's Liverpool Regiment,137.0,AWD0002am2,1918-10-15,Noyelles,Noyelles,France,2.3966669,50.4615259
+3 DIVISION: 13 Battalion King's Liverpool Regiment,137.0,AWD0002am2,1918-10-21,Bevillers,Bevillers,FR,3.3901,50.157379999999996
+3 DIVISION: 13 Battalion King's Liverpool Regiment,137.0,AWD0002am2,1918-10-22,Solesmes,Solesmes,France,3.4975923,50.1857534
+3 DIVISION: 13 Battalion King's Liverpool Regiment,137.0,AWD0002am2,1918-10-22,Quievy,Quiévy,France,3.4269019,50.1659358
+3 DIVISION: 13 Battalion King's Liverpool Regiment,138.0,AWD0002akv,1918-10-27,Ruesnes,Ruesnes,France,3.587164,50.2591175
+3 DIVISION: 13 Battalion King's Liverpool Regiment,138.0,AWD0002akv,1918-10-28,Escarmain,Escarmain,France,3.545858,50.2279807
+3 DIVISION: 13 Battalion King's Liverpool Regiment,138.0,AWD0002akv,1918-10-30,Solesmes,Solesmes,France,3.4975923,50.1857534
+3 DIVISION: 13 Battalion King's Liverpool Regiment,138.0,AWD0002akv,1918-10-31,Cattenieres,Cattenières,France,3.3368514,50.1349851
+3 DIVISION: 13 Battalion King's Liverpool Regiment,146.0,AWD0002amc,1918-11-01,Cattenieres,Cattenières,France,3.3368514,50.1349851
+3 DIVISION: 13 Battalion King's Liverpool Regiment,146.0,AWD0002amc,1918-11-04,Quievy,Quiévy,France,3.4269019,50.1659358
+3 DIVISION: 13 Battalion King's Liverpool Regiment,146.0,AWD0002amc,1918-11-09,Romeries,Romeries,France,3.534078,50.2024254
+3 DIVISION: 13 Battalion King's Liverpool Regiment,146.0,AWD0002amc,1918-11-11,Le Grand Sart,Le Grand Sarteaux,France,4.8364252,50.0730375
+3 DIVISION: 13 Battalion King's Liverpool Regiment,146.0,AWD0002amc,1918-11-11,Longueville,Longueville,France,1.8791460999999998,50.7318957
+3 DIVISION: 13 Battalion King's Liverpool Regiment,146.0,AWD0002amc,1918-11-17,La Longueville,La Longueville,France,3.8665192,50.2956221
+3 DIVISION: 13 Battalion King's Liverpool Regiment,146.0,AWD0002amc,1918-11-19,Sous le Bois,Sous le Bois,France,0.4014809,48.603255
+3 DIVISION: 13 Battalion King's Liverpool Regiment,146.0,AWD0002amc,1918-11-21,Colleret,Colleret,France,4.075551,50.2563884
+3 DIVISION: 13 Battalion King's Liverpool Regiment,146.0,AWD0002amc,1918-11-24,Bois de Villers,Bois-de-Villers,Belgium,4.823377,50.389973
+3 DIVISION: 13 Battalion King's Liverpool Regiment,147.0,AWD0002aln,1918-11-26,Berzee,Berzée,Belgium,4.4012206,50.2892396
+3 DIVISION: 13 Battalion King's Liverpool Regiment,147.0,AWD0002aln,1918-11-27,Gougnies,Gougnies,Belgium,4.5771625,50.3544437
+3 DIVISION: 13 Battalion King's Liverpool Regiment,147.0,AWD0002aln,1918-11-29,Bioul,Bioul,Belgium,4.7976225,50.3335584
+3 DIVISION: 13 Battalion King's Liverpool Regiment,147.0,AWD0002aln,1918-11-30,Spontin,Spontin,Belgium,5.006949,50.322619
+3 DIVISION: 13 Battalion King's Liverpool Regiment,147.0,AWD0002aln,1918-11-30,Yvoir,Yvoir,Belgium,4.8806618,50.3264425
+3 DIVISION: 13 Battalion King's Liverpool Regiment,147.0,AWD0002aln,1918-11-30,Sovet,Sovet,Belgium,5.0349178,50.296303
+3 DIVISION: 13 Battalion King's Liverpool Regiment,148.0,AWD0002amf,1918-12-02,Sovet,Sovet,Belgium,5.0349178,50.296303
+3 DIVISION: 13 Battalion King's Liverpool Regiment,148.0,AWD0002amf,1918-12-05,Pessoux,Pessoux,Belgium,5.1707753,50.2825466
+3 DIVISION: 13 Battalion King's Liverpool Regiment,148.0,AWD0002amf,1918-12-06,Noiseux,Noiseux,Belgium,5.3737372,50.2976637
+3 DIVISION: 13 Battalion King's Liverpool Regiment,148.0,AWD0002amf,1918-12-07,Erezee,Erezee,BE,5.55815,50.29292
+3 DIVISION: 13 Battalion King's Liverpool Regiment,148.0,AWD0002amf,1918-12-08,Fanzel,Fanzel,Belgium,5.5739038,50.3225375
+3 DIVISION: 13 Battalion King's Liverpool Regiment,148.0,AWD0002amf,1918-12-09,Odeigne,Odeigne,Belgium,5.682551,50.2563686
+3 DIVISION: 13 Battalion King's Liverpool Regiment,148.0,AWD0002amf,1918-12-10,Comte,Nizy-le-Comte,France,4.05396,49.5676
+3 DIVISION: 13 Battalion King's Liverpool Regiment,148.0,AWD0002amf,1918-12-10,Provedroux,Provedroux,BE,5.89616,50.25181
+3 DIVISION: 13 Battalion King's Liverpool Regiment,148.0,AWD0002amf,1918-12-12,Espeler,Espeler,Belgium,6.0528444,50.2032197
+3 DIVISION: 13 Battalion King's Liverpool Regiment,148.0,AWD0002amf,1918-12-13,Thommen,Thommen,Belgium,6.0743425,50.2190586
+3 DIVISION: 13 Battalion King's Liverpool Regiment,148.0,AWD0002amf,1918-12-14,Heuem,Heuem,Belgium,6.2368305,50.2865486
+3 DIVISION: 13 Battalion King's Liverpool Regiment,148.0,AWD0002amf,1918-12-16,Dahlem,Dahlem,Germany,6.5465533,50.3863388
+3 DIVISION: 13 Battalion King's Liverpool Regiment,148.0,AWD0002amf,1918-12-17,Schonau,Schönau,Germany,6.7794211,50.5106915
+3 DIVISION: 13 Battalion King's Liverpool Regiment,148.0,AWD0002amf,1918-12-18,Roitzheim,Roitzheim,Germany,6.8093454,50.644915
+3 DIVISION: 13 Battalion King's Liverpool Regiment,148.0,AWD0002amf,1918-12-19,Euskirchen,Euskirchen,Germany,6.7871681,50.66129
+3 DIVISION: 13 Battalion King's Liverpool Regiment,148.0,AWD0002amf,1918-12-20,Zulpich,Zülpich,Germany,6.6472694,50.6922278
+3 DIVISION: 13 Battalion King's Liverpool Regiment,148.0,AWD0002amf,1918-12-21,Luxheim,Lüxheim,Germany,6.6309167,50.7720686
+3 DIVISION: 13 Battalion King's Liverpool Regiment,148.0,AWD0002amf,1918-12-21,Kelz,Kelz,Germany,6.5957998,50.7681518
+3 DIVISION: 13 Battalion King's Liverpool Regiment,148.0,AWD0002amf,1918-12-21,Jakobwullesheim,Jakobwüllesheim,Germany,6.5594104,50.763192599999996
+3 DIVISION: 13 Battalion King's Liverpool Regiment,148.0,AWD0002amf,1918-12-28,Kerpen,Kerpen,Germany,6.694734,50.8696345
+3 DIVISION: 13 Battalion King's Liverpool Regiment,150.0,AWD0002amx,1919-01-01,Kerpen,Kerpen,Germany,6.694734,50.8696345
+3 DIVISION: 13 Battalion King's Liverpool Regiment,151.0,AWD0002akz,1919-01-21,Kerpen,Kerpen,Germany,6.694734,50.8696345
+3 DIVISION: 13 Battalion King's Liverpool Regiment,152.0,AWD0002alw,1919-02-01,Kerpen,Kerpen,Germany,6.694734,50.8696345
+3 DIVISION: 13 Battalion King's Liverpool Regiment,152.0,AWD0002alw,1919-02-03,Kerpen,Kerpen,Germany,6.694734,50.8696345
+3 DIVISION: 13 Battalion King's Liverpool Regiment,152.0,AWD0002alw,1919-02-05,Kerpen,Kerpen,Germany,6.694734,50.8696345
+3 DIVISION: 13 Battalion King's Liverpool Regiment,152.0,AWD0002alw,1919-02-06,Kerpen,Kerpen,Germany,6.694734,50.8696345
+3 DIVISION: 13 Battalion King's Liverpool Regiment,152.0,AWD0002alw,1919-02-07,Kerpen,Kerpen,Germany,6.694734,50.8696345
+3 DIVISION: 13 Battalion King's Liverpool Regiment,152.0,AWD0002alw,1919-02-08,Kerpen,Kerpen,Germany,6.694734,50.8696345
+3 DIVISION: 13 Battalion King's Liverpool Regiment,152.0,AWD0002alw,1919-02-09,Kerpen,Kerpen,Germany,6.694734,50.8696345
+3 DIVISION: 13 Battalion King's Liverpool Regiment,152.0,AWD0002alw,1919-02-10,Kerpen,Kerpen,Germany,6.694734,50.8696345
+3 DIVISION: 13 Battalion King's Liverpool Regiment,152.0,AWD0002alw,1919-02-12,Kerpen,Kerpen,Germany,6.694734,50.8696345
+3 DIVISION: 13 Battalion King's Liverpool Regiment,152.0,AWD0002alw,1919-02-14,Kerpen,Kerpen,Germany,6.694734,50.8696345
+3 DIVISION: 13 Battalion King's Liverpool Regiment,152.0,AWD0002alw,1919-02-15,Kerpen,Kerpen,Germany,6.694734,50.8696345
+3 DIVISION: 13 Battalion King's Liverpool Regiment,152.0,AWD0002alw,1919-02-16,Kerpen,Kerpen,Germany,6.694734,50.8696345
+3 DIVISION: 13 Battalion King's Liverpool Regiment,152.0,AWD0002alw,1919-02-17,Kerpen,Kerpen,Germany,6.694734,50.8696345
+3 DIVISION: 13 Battalion King's Liverpool Regiment,152.0,AWD0002alw,1919-02-18,Kerpen,Kerpen,Germany,6.694734,50.8696345
+3 DIVISION: 13 Battalion King's Liverpool Regiment,152.0,AWD0002alw,1919-02-19,Kerpen,Kerpen,Germany,6.694734,50.8696345
+3 DIVISION: 13 Battalion King's Liverpool Regiment,152.0,AWD0002alw,1919-02-20,Kerpen,Kerpen,Germany,6.694734,50.8696345
+3 DIVISION: 13 Battalion King's Liverpool Regiment,152.0,AWD0002alw,1919-02-21,Cologne,Cologne,Germany,6.959974,50.938361
+3 DIVISION: 13 Battalion King's Liverpool Regiment,152.0,AWD0002alw,1919-02-21,Ehrenfeld,Ehrenfeld,Germany,6.9198935,50.9488643
+3 DIVISION: 13 Battalion King's Liverpool Regiment,152.0,AWD0002alw,1919-02-21,Kerpen,Kerpen,Germany,6.694734,50.8696345
+3 DIVISION: 13 Battalion King's Liverpool Regiment,152.0,AWD0002alw,1919-02-22,Ehrenfeld,Ehrenfeld,Germany,6.9198935,50.9488643
+3 DIVISION: 13 Battalion King's Liverpool Regiment,152.0,AWD0002alw,1919-02-23,Ehrenfeld,Ehrenfeld,Germany,6.9198935,50.9488643
+3 DIVISION: 13 Battalion King's Liverpool Regiment,152.0,AWD0002alw,1919-02-24,Ehrenfeld,Ehrenfeld,Germany,6.9198935,50.9488643
+3 DIVISION: 13 Battalion King's Liverpool Regiment,152.0,AWD0002alw,1919-02-26,Ehrenfeld,Ehrenfeld,Germany,6.9198935,50.9488643
+3 DIVISION: 13 Battalion King's Liverpool Regiment,152.0,AWD0002alw,1919-02-27,Beuel,Beuel,Germany,7.1186126,50.7374805
+3 DIVISION: 13 Battalion King's Liverpool Regiment,152.0,AWD0002alw,1919-02-28,Beuel,Beuel,Germany,7.1186126,50.7374805
+3 DIVISION: 13 Battalion King's Liverpool Regiment,153.0,AWD0002aok,1919-03-02,Beuel,Beuel,Germany,7.1186126,50.7374805
+3 DIVISION: 13 Battalion King's Liverpool Regiment,154.0,AWD0002al8,1919-03-25,Beuel,Beuel,Germany,7.1186126,50.7374805

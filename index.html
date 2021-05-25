@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OWD GeoBlob Prototype</title>
+
+    <style type="text/css">
+        html { height: 100% }
+        body { height: 100%; margin: 0; padding: 0; overflow: hidden}
+        #map-canvas { height: 100% }
+
+        #owd-timeline{
+          border-radius: 4px;
+          border: 2px solid rgba(0,0,0,.2);
+          margin-bottom: 30px;
+          margin-left: 10px;
+          background: rgba(255,255,255,.2);
+          width:1400px;
+          height: 200px;
+        }
+
+
+        circle {
+          fill-opacity: 0.2;
+          transition: fill-opacity 250ms linear;
+        }
+
+        circle.active {
+          stroke: #800080;
+        }
+
+        circle.activity {
+          fill-opacity: 0.5;
+          /*transition: fill-opacity 250ms linear;*/
+        }
+
+        rect.selection{
+          stroke: #800080;
+        }
+        
+
+       ._geoBlob2  {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s; 
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite; 
+      }
+
+      @keyframes shake {
+          0% { transform: translate(1px, 1px) rotate(0deg); }
+          10% { transform: translate(-1px, -2px) rotate(-1deg); }
+          20% { transform: translate(-3px, 0px) rotate(1deg); }
+          30% { transform: translate(3px, 2px) rotate(0deg); }
+          40% { transform: translate(1px, -1px) rotate(1deg); }
+          50% { transform: translate(-1px, 2px) rotate(-1deg); }
+          60% { transform: translate(-3px, 1px) rotate(0deg); }
+          70% { transform: translate(3px, 1px) rotate(-1deg); }
+          80% { transform: translate(-1px, -1px) rotate(1deg); }
+          90% { transform: translate(1px, 2px) rotate(0deg); }
+          100% { transform: translate(1px, -2px) rotate(-1deg); }
+      }
+      
+    </style>
+    <!--<link href='https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css' rel='stylesheet' type='text/css'/>-->
+    <!-- <link rel="stylesheet" href="css/leaflet.css" /> -->
+    <link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/leaflet-sidebar.min.css" />
+    <link rel="stylesheet" href="css/Leaflet.Dialog.css" />
+    <link rel="stylesheet" href="css/nouislider.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+</head>
+<body>
+  <svg height=0>
+  <!-- Watercolor effect: Purple -->
+<filter id="watercolorpurple" color-interpolation-filters="sRGB" x="0%" y="0%" height="100%" width="100%" transform="30deg">
+  <feTurbulence type="fractalNoise" result="cloudbase" baseFrequency=".002" numOctaves="10" seed="15"/>
+  <feColorMatrix in="cloudbase" type="hueRotate" values="0" result="cloud">
+  </feColorMatrix>
+  <feColorMatrix in="cloud" result="wispy" type="matrix" 
+                               values="4 0 0 0 -1 
+                                       4 0 0 0 -1
+                                       4 0 0 0 -1
+                                       1 0 0 0 0   
+                                       "/>
+
+  <feFlood flood-color="#890056" result="purple"/>
+  <feBlend mode="screen" in2="purple" in="wispy"/>
+  <feGaussianBlur stdDeviation="2"/>
+  <feComposite operator="in" in2="SourceGraphic"/>
+</filter>
+
+<filter id="blur">
+  <feGaussianBlur in="SourceGraphic" stdDeviation="5" />
+</filter>
+<filter id="blur2">
+  <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+</filter>
+<filter id="blur1">
+  <feGaussianBlur in="SourceGraphic" stdDeviation="1" />
+</filter>
+  </svg>
+
+  <div id="map-canvas"></div>
+  <div id="settings-panel" style="display: none">
+    <h2>Temporal Window</h2>
+    <p>Date: <span id="start-date"></span> - <span id="end-date"></span> [Days: <span id="num-days"></span>]</p>
+    +/- <strong><span id="temporalSldrVal">2</span> days</strong>
+    <div id="temp-window-delta-slider"></div><br />
+
+    <h2>Spatial Window</h2>
+    <p><input type="checkbox" id="showOuterBlob" name="showOuterBlob" value="show" checked onclick="changeShowOuterBlob();"> Show Outer Blob<br></p>
+    <p>Center Blob (Include Points by Distance in px): <span id="blob-value-distance"></span></p>
+    <div id="blob-distance"></div><br />
+
+    <h2>Shape Preferences</h2>
+    <p>Edge Padding (px): <span id="blob-value-edgeR0"></span></p>
+    <div id="blob-slider-edgeR0"></div><br />
+    <!--<div id="blob-slider-edgeR1"></div>-->
+    <p>Node Padding (px): <span id="blob-value-nodeR0"></span></p>
+    <div id="blob-slider-nodeR0"></div><br />
+    <!--<div id="blob-slider-nodeR1"></div>-->
+
+
+    <h2>Activieties</h2>
+    <p><input type="checkbox" id="showActivities" name="showActivities" value="show" onclick="changeShowActivities();"> Show Activity Overlay<br></p>
+    <p>Placement (Jitter) (+/- px): <span id="activity-jitter-value"></span></p>
+    <div id="activity-jitter"></div><br />
+    <!--<p>Fade Out After (ms): <span id="activity-delay-value"></span></p>
+    <div id="activity-delay"></div><br />
+    <p>Fade Out Duration (ms): <span id="activity-duration-value"></span></p>
+    <div id="activity-duration"></div><br />-->
+
+    <h2>Legend</h2>
+    <b>Units</b><br/>
+    <span style="color:#66c2a5">3rd DIVISION: 13th Battalion King's Liverpool Regiment</span><br/>
+    <span style="color:#fc8d62">3rd DIVISION: 10th Battalion Royal Welsh Fusiliers</span><br/>
+    <span style="color:#8da0cb">3rd DIVISION: 8th Battalion King's Own Royal Lancaster Regiment</span><br/>
+    <br/>
+    <b>Activities</b><br/>
+    <span style="color:#ca0020">Fighing activities at the front</span><br/>
+    <span style="color:#f4a582">Non-fighting activities at the front</span><br/>
+    <span style="color:#0571b0">Non-combat activities behind the lines</span><br/>
+    <br/>
+    <h2>Playback</h2>
+    <button type="button" id="playbackButton">Play</button>
+    <p>Speed (faster - slower)</p>
+    <div id="timer-interval"></div><br />
+     
+  </div>
+  </div>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>-->
+<script src="../bubblesets-js/bubblesets.js" charset="utf-8"></script>
+<script src="../jDBSCAN/jDBSCAN.js" charset="utf-8"></script>
+<!--<script src="js/leaflet.js"></script>-->
+<script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
+<script src="js/leaflet-sidebar.min.js"></script>
+<script src="js/Leaflet.Dialog.js"></script>
+<script src="js/nouislider.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.4.0/d3.min.js"></script>-->
+<script src="js/d3.v5.min.js"></script>
+<script src="L.D3SvgOverlay.js"></script>
+<script>
+
+var OWD = {};
+OWD.preferences = {
+  edgeR0: 10,
+  edgeR1: 20,
+  nodeR0: 15,
+  nodeR1: 50,
+  innerBlobDist: 250,
+  timerInterval: 250,
+  activityTiming: 1,
+  activityDelay: 0,
+  activityDuration: 1000,
+  jitter: 10,
+  minDate: new Date (1915, 8, 1), //new Date(1915, 0, 1),
+  maxDate: new Date(1919, 5, 1),
+  currentDate: new Date(1915, 8, 3),
+  days: 2,
+  minDays: 1,
+  maxDays: 15,
+  showOuterBlob: true,
+  showActivities: false
+};
+OWD.temporalWindow = {f1: "1917-01-01", f2: "1917-01-15"};
+
+var owdOptions = {
+  edgeR0: 10,
+  edgeR1: 20,
+  nodeR0: 15,
+  nodeR1: 50,
+  innerBlobDist: 250,
+  timerInterval: 200,
+  activityTiming: 1,
+  activityDelay: 0,
+  activityDuration: 1000,
+  jitter: 10
+
+};
+
+function changeShowOuterBlob() {
+   if (document.getElementById('showOuterBlob').checked) 
+  {
+      OWD.preferences.showOuterBlob = true
+  } else {
+      OWD.preferences.showOuterBlob = false
+  }
+
+  placesOverlay.draw()
+}
+
+function changeShowActivities() {
+     if (document.getElementById('showActivities').checked) 
+  {
+      OWD.preferences.showActivities = true
+  } else {
+      OWD.preferences.showActivities = false
+  }
+
+  activitiesOverlay.draw()
+}
+
+//TIME LINE CUSTOM CONTROL
+var customControl =  L.Control.extend({
+
+  options: {
+    position: 'bottomleft'
+  },
+
+  onAdd: function (map) {
+    var container = L.DomUtil.create('div');
+
+    d3.select(container).attr("id", "owd-timeline");//.append('svg');
+
+    //d3.select(container).attr("class", "owd-timeline");
+
+    //L.DomUtil.addClass(container, 'leaflet-control');
+    //L.DomUtil.addClass(container, 'owd-timeline');
+    if (L.Browser.touch)
+        L.DomUtil.addClass(container, 'leaflet-touch');
+
+    // when adding to the map container, we should stop event propagation
+    L.DomEvent.disableScrollPropagation(container);
+    L.DomEvent.disableClickPropagation(container);
+    
+    container.onmouseover = function(){
+     map.dragging.disable();
+    }
+    container.onmouseout = function(){
+      map.dragging.enable();
+    }
+
+    container.onclick = function(){
+      //console.log('buttonClicked');
+    }
+
+    return container;
+  }
+});
+
+//MAP
+L.mapbox.accessToken = 'pk.eyJ1Ijoiam9oYW5uZXNsaWVtIiwiYSI6ImNqaGc1N3hvYTEydTIzMHBlcHN6MXVrMmsifQ.nq1R3gtjjXcH7HaAvp6M9g'
+var map = L.map("map-canvas",{center:[50.3, 4],zoom:8});
+
+var styleLayer = L.mapbox.styleLayer('mapbox://styles/johannesliem/cjhg595vt2vi22rp71oggbw6r')
+styleLayer.addTo(map);
+/*
+var Esri_WorldTopoMap = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+	attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
+});
+Esri_WorldTopoMap.addTo(map);*/
+
+map.addControl(new customControl());
+
+//SIDEBAR
+var sidebar = L.control.sidebar({
+    autopan: false,       // whether to maintain the centered map point when opening the sidebar
+    closeButton: true,    // whether t add a close button to the panes
+    container: 'sidebar', // the DOM container or #ID of a predefined sidebar container that should be used
+    position: 'right',     // left or right
+}).addTo(map);
+
+var panelContent = {
+    id: 'userinfo',                     // UID, used to access the panel
+    tab: '<i class="fa fa-gear"></i>',  // content can be passed as HTML string,
+    pane: document.getElementById("settings-panel").innerHTML, //someDomNode.innerHTML,        // DOM elements can be passed, too
+    title: 'Settings',              // an optional pane header
+    position: 'top'                  // optional vertical alignment, defaults to 'top'
+};
+sidebar.addPanel(panelContent);
+
+
+//d3.select(".leaflet-bottom.leaflet-left").append('div').attr("class","leaflet-control").style('height', '300px').style('width', '300px').style('background-color', 'red');
+
+var places = [];
+var activities = [];
+var leafletOptions = {f1: "1915-08-01", f2: "1915-08-05"};
+
+d3.select('#start-date').html(leafletOptions.f1);
+d3.select('#end-date').html(leafletOptions.f2);
+d3.select('#num-days').html(1+d3.timeDay.count(new Date(leafletOptions.f1), new Date(leafletOptions.f2)));
+
+
+var size = 0;
+var pad = 0;
+var bubbles = new BubbleSet();
+
+var colors = ['#66c2a5', '#fc8d62', '#8da0cb'];
+
+var placesOverlay = L.d3SvgOverlay(function(sel,proj,options){
+
+    var blobIxS = places.map((u, uIx) => {return u.map((d, dIx) => {return ((d.Date >= options.f1) && (d.Date <= options.f2) ? dIx : undefined); } ).filter((d) => {return d !== undefined}); });
+    
+    var blobIxs = places.map(function(d, ix) {
+      if ((d.Date >= options.f1) && (d.Date <= options.f2) ) {
+        return ix;
+      } 
+    }).filter(function(d){return d !== undefined});
+    
+
+    var placesFiltered = blobIxs.map((i) => places[i]);
+    
+    var placesFilteredByUnit = blobIxS.map((u, uIx) => u.map((i) => places[uIx][i]) );
+
+    //console.log(placesFiltered)
+    medXs = placesFilteredByUnit.map( u => d3.median(u.map(p => parseFloat(proj.latLngToLayerPoint(p.latLng).x)).sort((a, b) => d3.ascending(a, b))) );
+    medYs = placesFilteredByUnit.map( u => d3.median(u.map(p => parseFloat(proj.latLngToLayerPoint(p.latLng).y)).sort((a, b) => d3.ascending(a, b))) );
+
+    //var geoBlob = doGeoBlob(blobIxs, proj)
+
+    var geoBlobs = blobIxS.map((b, bIx) => doGeoBlob(b, bIx, proj))
+    
+    //console.log(geoBlobs)
+
+    //var geoBlobPath = sel.selectAll('path.geoBlob').data([geoBlob]);
+    
+
+
+    if (OWD.preferences.showOuterBlob) {
+      var geoBlobPath = sel.selectAll('path.geoBlob').data(geoBlobs);
+    } else {
+      var geoBlobPath = sel.selectAll('path.geoBlob').data([]);
+    }
+    geoBlobPath.enter()
+     .append('path')
+     .attr('class', 'geoBlob')
+     .merge(geoBlobPath)
+      .attr('filter', "url(#blur)")
+      .attr ('fill', (d,i) => colors[i])
+      //.attr ('stroke', '#800080')
+      //.attr ('stroke-width', '2px')
+      .attr("fill-opacity", 0.2)
+      //.attr("stroke-opacity", 0.2)
+      .attr ('d', function(d){return d;});  
+
+    
+     geoBlobPath.exit().remove();
+
+   // var r = getDistance(cP, places[0].latLng);
+   // console.log(r);
+   
+   var blobIxS2 = places.map((u, uIx) => {return u.map((d, dIx) => {return ((d.Date >= options.f1) && (d.Date <= options.f2) && (getDistance2(medXs[uIx], medYs[uIx], proj.latLngToLayerPoint(d.latLng).x, proj.latLngToLayerPoint(d.latLng).y ) <= owdOptions.innerBlobDist) ? dIx : undefined); } ).filter((d) => {return d !== undefined}); });
+   
+    //console.log(geoBlobPath)
+
+    var geoBlobs2 = blobIxS2.map((b, bIx) => doGeoBlob(b, bIx, proj))
+
+    var geoBlobPath2 = sel.selectAll('path.geoBlob2').data(geoBlobs2);
+
+    geoBlobPath2.enter()
+     .append('path')
+     .attr('class', 'geoBlob2')
+     .merge(geoBlobPath2)
+      .attr('filter', "url(#blur2)")
+      .attr ('fill', 'none')
+      .attr ('stroke', (d,i) => colors[i])
+      .attr ('stroke-width', '4px')
+      //.attr("fill-opacity", 0.4)
+      .attr("stroke-opacity", 0.8)
+      .attr ('d', function(d){return d;});  
+
+     geoBlobPath2.exit().remove();
+
+     
+
+ // }
+
+}, leafletOptions);
+
+var fighting = ['activity:attack', 'activity:fire', 'activity:raid','activity:withdraw', 'activity:achieved'];
+var front = ['activity:line', 'activity:quiet', 'activity:enemy_activity' , 'activity:reconnoitered', 'activity:repair']
+var movment = [] //'activity:movement'
+//'activity:clearing', 'activity:reserve', 'activity:support', 'activity:working', 'activity:resupplying',
+
+var activitiesOverlay = L.d3SvgOverlay(function(sel,proj,options){
+  //console.log(options)
+  //var minLogPop = Math.log2(d3.min(places,function(d){return d.population;}));
+
+  if (owdOptions.activityDelay == 0){
+
+    var activitiesUpd = sel.selectAll('circle.activity').data(activities.filter(function(d){
+    //if(d.Date == options.f2){
+    if ((d.Date >= options.f1) && (d.Date <= options.f2) && OWD.preferences.showActivities){
+      return true;
+    } else {
+      return false;
+    }
+   }));
+
+    activitiesUpd.enter()
+    .append('circle')
+    .attr('class', 'activity')
+    .merge(activitiesUpd)
+    .attr('r', 4) //function(d){return Math.log2(d.population) - minLogPop + 2;})
+    .attr('cx', function(d){return proj.latLngToLayerPoint(d.latLng).x + Math.random() * (owdOptions.jitter - (-owdOptions.jitter)) + (-owdOptions.jitter);})
+    .attr('cy', function(d){return proj.latLngToLayerPoint(d.latLng).y + Math.random() * (owdOptions.jitter - (-owdOptions.jitter)) + (-owdOptions.jitter);})
+    .attr('fill',function(d){return (fighting.includes(d.activity)) ? "#ca0020" : (front.includes(d.activity)) ? "#f4a582" : (movment.includes(d.activity)) ? "blue" : "#0571b0";})
+    .attr('fill-opacity', 0.75)
+    ;
+
+    activitiesUpd.exit().remove();
+  } else {
+
+   var activitiesUpd = sel.selectAll('circle.activity').exit().remove().data(activities.filter(function(d){
+    if(d.Date == options.f2){
+    //if ((d.Date >= options.f1) && (d.Date <= options.f2)){
+      return true;
+    } else {
+      return false;
+    }
+   })); 
+
+  activitiesUpd.enter()
+    .append('circle')
+    .attr('class', 'activity')
+    .merge(activitiesUpd)
+    .attr('r', 4) //function(d){return Math.log2(d.population) - minLogPop + 2;})
+    .attr('filter', 'url(#blur1)')
+    .attr('cx', function(d){return proj.latLngToLayerPoint(d.latLng).x + Math.random() * (owdOptions.jitter - (-owdOptions.jitter)) + (-owdOptions.jitter);})
+    .attr('cy', function(d){return proj.latLngToLayerPoint(d.latLng).y + Math.random() * (owdOptions.jitter - (-owdOptions.jitter)) + (-owdOptions.jitter);})
+    .attr('fill',function(d){return (fighting.includes(d.activity)) ? "#ca0020" : (front.includes(d.activity)) ? "#f4a582" : (movment.includes(d.activity)) ? "blue" : "#0571b0";})
+    .attr('fill-opacity', 0.75)
+    .transition()
+      .ease(d3.easeExp)
+      .delay(owdOptions.activityDelay)
+      .duration(owdOptions.activityDuration)
+      .style("opacity", 0)
+      .remove()
+    ;
+
+    activitiesUpd.exit().remove();
+  }
+
+}, leafletOptions)
+
+function getDistance2(x1, y1, x2, y2) {
+  return Math.hypot(x2-x1, y2-y1);
+}
+
+function getDistance(origin, destination) {
+    // return distance in meters
+    
+    var lon1 = toRadian(origin.lat),
+        lat1 = toRadian(origin.lng),
+        lon2 = toRadian(destination[1]),
+        lat2 = toRadian(destination[0]);
+
+    //console.log(lat1, lon1, lat2, lon2);
+
+    var deltaLat = lat2 - lat1;
+    var deltaLon = lon2 - lon1;
+
+    var a = Math.pow(Math.sin(deltaLat/2), 2) + Math.cos(lat1) * Math.cos(lat2) * Math.pow(Math.sin(deltaLon/2), 2);
+    var c = 2 * Math.asin(Math.sqrt(a));
+    var EARTH_RADIUS = 6371;
+    return c * EARTH_RADIUS;
+}
+function toRadian(degree) {
+    return degree*Math.PI/180;
+}
+
+
+  function doGeoBlob(rects, unitIdx , proj) {
+
+    //var rectSets = getRectangleSets(rects, others, proj);
+    var rectSets = getRectangleSets2(rects, unitIdx, proj);
+    var list = bubbles.createOutline(
+      rectSets,
+      //BubbleSet.addPadding(rectSets, pad),
+      [], //BubbleSet.addPadding(rectSets[1], pad),
+      []
+      //getEdges(rects, proj)
+    );
+    
+    //console.log(list)
+    
+    var outline = new PointPath(list).transform([
+      new ShapeSimplifier(0.0),
+      new BSplineShapeGenerator(),
+      new ShapeSimplifier(0.0),
+    ]);
+    return outline.toString();
+    //console.log(outline.toString());
+  }
+
+  function getRectangleSets(rects, others, proj) {
+
+    var rSet = {};
+    rects.forEach(function(ix) {
+      rSet[ix] = true;
+    });
+    var actualOthers = others.filter(function(ix) {
+      return !rSet[ix]; // remove rectangles that are in our set
+    });
+    return [ rects.map( function(x) { return ixToRectangle(x, proj); } ), actualOthers.map( function(x) { return ixToRectangle(x, proj); } ) ]
+  }
+
+  function getRectangleSets2(rects, unitIdx, proj) {
+
+    var rSet = {};
+    rects.forEach(function(ix) {
+      rSet[ix] = true;
+    });
+    return rects.map( function(x) { return ixToRectangle(x, unitIdx, proj); } );
+  }
+
+  function getEdges(rects, proj) {
+    var rSet = {};
+    rects.forEach(function(ix) {
+      rSet[ix] = true;
+    });
+    return edges.filter(function(e) {
+      return rSet[e[0]] && rSet[e[1]]; // only consider fully contained edges
+    }).map(function(x) { return ixsToEdge(x, proj); });
+  }
+  
+
+  function ixToRectangle(ix, unitIdx, proj) {
+    return {
+      "x": proj.latLngToLayerPoint(places[unitIdx][ix].latLng).x - size * 0.5,
+      "y": proj.latLngToLayerPoint(places[unitIdx][ix].latLng).y - size * 0.5,
+      "width": size,
+      "height": size,
+    };
+  }
+
+  function ixsToEdge(edge, proj) {
+    return {
+      "x1": proj.latLngToLayerPoint(places[edge[0]].latLng).x,
+      "y1": proj.latLngToLayerPoint(places[edge[0]].latLng).y,
+      "x2": proj.latLngToLayerPoint(places[edge[1]].latLng).x,
+      "y2": proj.latLngToLayerPoint(places[edge[1]].latLng).y,
+    };
+  }
+
+
+Promise.all([
+  /*"data/places_3_DIVISION__1_Battalion_Gordon_Highlanders.csv",*/
+  "data/new_places_3_DIVISION__13_Battalion_King's_Liverpool_Regiment.csv",
+  "data/new_places_3_DIVISION__10_Battalion_Royal_Welsh_Fusiliers.csv",
+  "data/new_places_gicentre.csv", //3 DIVISION: 8 Battalion King's Own Royal Lancaster Regiment
+  "data/activities_long_3_DIVISION__13_Battalion_King's_Liverpool_Regiment.csv",
+  "data/activities_long_3_DIVISION__10_Battalion_Royal_Welsh_Fusiliers.csv",
+  "data/activities_long.csv"
+].map(function(url) {
+  return fetch(url).then(function(response) {
+    return response.ok ? response.text() : Promise.reject(response.status);
+  }).then(function(text) {
+    return d3.csvParse(text);
+  });
+})).then(function(data) {
+  
+      places.push(data[0].map(function(d){
+            d.latLng = [+d.latitude, +d.longitude];
+            return d;
+          })
+      );
+      places.push(data[1].map(function(d){
+            d.latLng = [+d.latitude, +d.longitude];
+            return d;
+          })
+      );
+      places.push(data[2].map(function(d){
+            d.latLng = [+d.latitude, +d.longitude];
+            return d;
+          })
+      );
+
+      activities = activities.concat(data[3].map(function(d){
+            d.latLng = [+d.latitude, +d.longitude];
+            return d;
+          })
+      );
+      activities = activities.concat(data[4].map(function(d){
+            d.latLng = [+d.latitude, +d.longitude];
+            return d;
+          })
+      );
+      activities = activities.concat(data[5].map(function(d){
+            d.latLng = [+d.latitude, +d.longitude];
+            return d;
+          })
+      );
+
+
+
+ edges = [];
+
+ placesOverlay.addTo(map);
+ activitiesOverlay.addTo(map);
+
+
+ var blobSliderEdgeR0 = document.getElementById('blob-slider-edgeR0');
+ var blobSliderEdgeR1 = document.getElementById('blob-slider-edgeR1');
+ var blobSliderNodeR0 = document.getElementById('blob-slider-nodeR0');
+ var blobSliderNodeR1 = document.getElementById('blob-slider-nodeR1');
+ var tempWindow = document.getElementById('temp-window-delta-slider')
+ var blobDist = document.getElementById('blob-distance');
+ var timerInterv = document.getElementById('timer-interval');
+ var activityTiming = document.getElementById('activity-timing');
+ //var activityDelay = document.getElementById('activity-delay');
+ //var activityDuration = document.getElementById('activity-duration');
+ var activityJitter = document.getElementById('activity-jitter');
+
+
+function initSlider() {
+
+  noUiSlider.create(timerInterv, {
+    start: owdOptions.timerInterval,
+    step:1,
+    range: {
+      'min':  10,
+      'max':  1000
+    },
+   });
+  timerInterv.noUiSlider.on('update', function( value, handl ) {
+    //console.log(value);
+    owdOptions.timerInterval = value;
+    if (moving) {
+      stopPlayback();
+      startPlayback();
+    }
+    
+    //bubbles.edgeR0(value);
+    placesOverlay.draw();
+  });
+
+  noUiSlider.create(blobSliderEdgeR0, {
+    start: owdOptions.edgeR0,
+    step:1,
+    range: {
+      'min':  3,
+      'max':  20
+    },
+   });
+  blobSliderEdgeR0.noUiSlider.on('update', function( value, handl ) {
+    //console.log(value);
+    d3.select("#blob-value-edgeR0").html(value)
+    owdOptions.edgeR0 = value;
+    bubbles.edgeR0(value);
+    placesOverlay.draw();
+  });
+
+  noUiSlider.create(blobSliderNodeR0, {
+    start: owdOptions.nodeR0,
+    step:1,
+    range: {
+      'min':  1,
+      'max':  50
+    },
+   });
+  blobSliderNodeR0.noUiSlider.on('update', function( value, handl ) {
+    //console.log(value);
+    d3.select("#blob-value-nodeR0").html(value)
+    owdOptions.nodeR0 = value;
+    bubbles.nodeR0(value);
+    placesOverlay.draw();
+  });
+
+  noUiSlider.create(tempWindow, {
+    start: OWD.preferences.days,
+      step: 1,
+      range: {
+          'min': OWD.preferences.minDays,
+          'max': OWD.preferences.maxDays
+      }
+    });
+  tempWindow.noUiSlider.on('update', function( value, handl ) {
+    d3.select('#temporalSldrVal').html(Number(value[0]))
+    OWD.preferences.days = Number(value[0]);
+
+    var tempDate = getBoundingDates(OWD.preferences.currentDate, OWD.preferences.days);
+
+   myBrush
+      .attr("width", function() {return x(tempDate[1]) - x(tempDate[0]) } );
+
+    var w = Number(myBrush.attr("width"));
+    //console.log(w);
+    myBrush
+      .attr("transform", function() { return "translate(" + (x(OWD.preferences.currentDate)-(w/2)) + ", -5)"; });
+
+    OWD.temporalWindow.f1 = tempDate[0].toISOString().slice(0,10);
+    OWD.temporalWindow.f2 = tempDate[1].toISOString().slice(0,10);
+
+    updateFilter(OWD.temporalWindow.f1, OWD.temporalWindow.f2)
+  });
+
+  noUiSlider.create(blobDist, {
+    start: owdOptions.innerBlobDist,
+    step:1,
+    range: {
+      'min':  1,
+      'max':  1500
+    },
+   });
+  blobDist.noUiSlider.on('update', function( value, handl ) {
+    //console.log(value);
+    d3.select("#blob-value-distance").html(value)
+    owdOptions.innerBlobDist = value;
+    //bubbles.nodeR0(value);
+    placesOverlay.draw();
+  });
+
+  /*
+  noUiSlider.create(activityDelay, {
+    start: owdOptions.activityDelay,
+    step:1,
+    range: {
+      'min':  0,
+      'max':  5000
+    },
+   });
+  activityDelay.noUiSlider.on('update', function( value, handl ) {
+    //console.log(value);
+    d3.select("#activity-delay-value").html(value)
+    owdOptions.activityDelay = value;
+    //bubbles.nodeR0(value);
+    placesOverlay.draw();
+  });*/
+/*
+  noUiSlider.create(activityDuration, {
+    start: owdOptions.activityDuration,
+    step:1,
+    range: {
+      'min':  1,
+      'max':  5000
+    },
+   });
+  activityDuration.noUiSlider.on('update', function( value, handl ) {
+    //console.log(value);
+    d3.select("#activity-duration-value").html(value)
+    owdOptions.activityDuration = value;
+    //bubbles.nodeR0(value);
+    //placesOverlay.draw();
+  });
+*/
+    noUiSlider.create(activityJitter, {
+    start: owdOptions.jitter,
+    step:1,
+    range: {
+      'min':  0,
+      'max':  15
+    },
+   });
+  activityJitter.noUiSlider.on('update', function( value, handl ) {
+    //console.log(value);
+    d3.select("#activity-jitter-value").html(value)
+    owdOptions.jitter = value;
+    activitiesOverlay.draw();
+  });
+
+}
+
+/*
+var data2 = activities.map(function(p){
+  return new Date(p.Date);
+});*/
+//console.log(data2)
+
+var svg = d3.select("#owd-timeline").append('svg').attr('width', 1400).attr('height', 200);
+
+var margin = {top: 10, right: 40, bottom: 40, left: 40},
+    width = +svg.attr("width") - margin.left - margin.right,
+    height = +svg.attr("height") - margin.top - margin.bottom,
+    g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+    var x = d3.scaleTime().domain([new Date(1914, 0, 1), new Date(1920, 0, 1)]).rangeRound([0, width]);
+    var y = function(a) { return (fighting.includes(a)) ? 0 : (front.includes(a)) ? 0 : (movment.includes(a)) ? (height/4)*2 : (height/4)*2 ;}
+   // var y = function(a) { return (fighting.includes(a)) ? 0 : (front.includes(a)) ? (height/4) : (movment.includes(a)) ? (height/4)*2 : (height/4)*3 ;} //d3.randomNormal(height / 2, height / 8);
+/*var brush = d3.brushX()
+    .extent([[0, 0], [width, height]])
+    .on("start brush end", brushmoved);*/
+
+//brush.limit([new Date(1914, 0, 10), new Date(1914, 2, 31)].map(x));
+
+g.append("g")
+    .attr("class", "axis axis--x")
+    .attr("transform", "translate(0," + height + ")")
+    .call(d3.axisBottom(x));
+
+var barWidth = 2;
+var bar = g.append("g")
+    .attr("class", "circle")
+  .selectAll("rect")
+  .data(activities)
+  .enter().append("rect")
+    .attr("transform", function(d) { return "translate(" + x(new Date(d.Date)) + "," + y(d.activity) + ")"; })
+    //.attr("r", 3)
+    .attr("x", -barWidth/2)
+    .attr("width", barWidth )
+    .attr("height", height/2)
+    .style("opacity", 0.1)
+    .attr('fill',function(d){return (fighting.includes(d.activity)) ? "#ca0020" : (front.includes(d.activity)) ? "#f4a582" : (movment.includes(d.activity)) ? "blue" : "#0571b0";});
+
+  var myDrag = d3.drag();
+  myDrag.on("start drag", draggingWindow);
+
+  var myBrushG = g.append("g");
+  myBrushG
+    .append("rect")
+    .attr("class", "brush-container")
+    .attr("x", 0)
+    .attr("y", -5)
+    .attr("width", width)
+    .attr("height", height+10)
+    .attr("opacity", 0)
+    .on("mousedown", moveWindow);
+  var myBrush = myBrushG
+    .append("rect")
+    .attr("class", "brush")
+    .attr("x", 0)
+    .attr("y", 0)
+    .attr("width", function() {return x(getBoundingDates(OWD.preferences.currentDate, OWD.preferences.days)[1]) - x(getBoundingDates(OWD.preferences.currentDate, OWD.preferences.days)[0]) } )
+    .attr("height", height+10)
+    .attr("transform", function() { return "translate(" + x(OWD.preferences.currentDate) + ", -5)"; })
+    .attr("stroke", '#333')
+    .attr("stroke-width", 1.2)
+    .attr("stroke-opacity", 0.8)
+    .attr("fill-opacity", 0.2)
+    .call(myDrag);
+
+  myDrag.subject(myBrush);
+
+  initSlider();
+
+
+/*var gBrush = g.append("g")
+    .attr("class", "brush")
+    .call(brush);*/
+  function draggingWindow() {
+    move(d3.event.x, d3.event.subject)
+  }
+
+  function moveWindow() {
+    move(d3.event.offsetX - margin.left, myBrush)
+    if(moving) {
+      stopPlayback()
+      d3.select("#playbackButton").html("Play")
+    }
+  }
+
+  function move(xNew, target, scrollToPage=true) {
+    var w = Number(target.attr("width"));
+    var xVal = xNew - w/2;
+    if (xVal < 0)
+      xVal = 0;
+    if (xNew + w/2 > width) {
+      xVal = width - w;
+      if (moving) {
+        xVal = 0;
+      }
+    }
+      
+    target.attr("transform", "translate(" + [xVal, -5] + ")");
+
+    OWD.preferences.currentDate = x.invert(xNew);
+    
+    var tempDate = getBoundingDates(OWD.preferences.currentDate, OWD.preferences.days);
+    OWD.temporalWindow.f1 = tempDate[0].toISOString().slice(0,10);
+    OWD.temporalWindow.f2 = tempDate[1].toISOString().slice(0,10);
+
+    updateFilter(OWD.temporalWindow.f1, OWD.temporalWindow.f2)
+
+    //filterActivities();
+    //sendMessage();
+
+    /*if(scrollToPage){
+      let page = mapDateToPage(OWD.preferences.currentDate.toISOString().slice(0,10));
+      document.getElementById(`diary_page_${page}`).scrollIntoView({behavior: "instant"});
+    }*/
+    //if (moving){
+    // scrollDiary("smooth");
+    //} else {
+    //  scrollDiary("instant");
+    //}
+  }
+
+function getBoundingDates(d, delta){
+  var d1 = new Date(d);
+  var d2 = new Date(d);
+  d1.setDate(d1.getDate() - delta);
+  d2.setDate(d2.getDate() + delta);
+  return [d1, d2].map(d3.timeDay.round);
+}
+
+// style brush resize handle
+// https://github.com/crossfilter/crossfilter/blob/gh-pages/index.html#L466
+
+/*
+var brushResizePath = function(d) {
+    var e = +(d.type == "e"),
+        x = e ? 1 : -1,
+        y = height / 2;
+    return "M" + (.5 * x) + "," + y + "A6,6 0 0 " + e + " " + (6.5 * x) + "," + (y + 6) + "V" + (2 * y - 6) + "A6,6 0 0 " + e + " " + (.5 * x) + "," + (2 * y) + "Z" + "M" + (2.5 * x) + "," + (y + 8) + "V" + (2 * y - 8) + "M" + (4.5 * x) + "," + (y + 8) + "V" + (2 * y - 8);
+}*/
+/*
+var playArrowsPath = function(d) {
+  return (d.direction == "f") ? "M15 -15 L15 15 L35 0 Z" : "M-15 -15 L-15 15 L-35 0 Z";
+}*/
+/*
+var handle = gBrush.selectAll(".handle--custom")
+  .data([{type: "w"}, {type: "e"}])
+  .enter().append("path")
+    .attr("class", "handle--custom")
+    .attr("stroke", "#000")//function(d){return d.type == "e" ? "red" : "#000";})
+    .attr("fill", "#eee")
+    .attr("cursor", "ew-resize")
+    .attr("d", brushResizePath);
+*/
+/*
+var play = gBrush.selectAll(".play--custom")
+    .data([{direction: "b"}, {direction: "f"}])
+    .enter().append("path")
+      .attr("class", "play--custom")
+      .attr("d", playArrowsPath)
+      .attr("fill", "#eee")
+      .attr("cursor", "pointer")
+      .attr("stroke", "#333")
+      .attr("stroke-width", 1)
+      .on("mousedown", function(d) {
+        d3.event.stopPropagation();
+        //console.log("play", d.direction);
+        direction = (d.direction == "f") ? 1 : -1;
+        startPlayback();
+      })
+      .on("mouseover", function() {
+            d3.select(this)
+              .attr("fill", "#800080");
+        })
+      .on("mouseout", function(d, i) {
+            d3.select(this).attr("fill", "#eee");
+        });
+*/
+function updateFilter(f1, f2){
+  placesOverlay.options.f1 = f1;
+  placesOverlay.options.f2 = f2;
+ // console.log(placesOverlay.options);
+  placesOverlay.draw();
+  activitiesOverlay.options.f1 = f1;
+  activitiesOverlay.options.f2 = f2;
+ // console.log(placesOverlay.options);
+  activitiesOverlay.draw();
+
+  d3.select('#start-date').html(f1);
+  d3.select('#end-date').html(f2);
+  d3.select('#num-days').html(1+d3.timeDay.count(new Date(f1), new Date(f2)));
+}
+
+//updateFilter("1917-05-01", "1917-05-07");
+
+//gBrush.call(brush.move, [new Date(1915, 7, 15), new Date(1915, 7, 22)].map(x));
+
+var moving = false;
+var direction = 1;
+
+  d3.select("#playbackButton").on("click", function(){
+    if (moving) {
+      stopPlayback();
+      this.innerHTML = "Play";
+    } else {
+      startPlayback();
+      this.innerHTML = "Pause";
+    }
+    
+  });
+
+
+function startPlayback(){
+  moving = true;
+  timer = setInterval(step, owdOptions.timerInterval);
+}
+
+function stopPlayback(){
+
+  moving = false;
+  clearInterval(timer); 
+    
+    
+}
+
+function step() {
+  var string = myBrush.attr("transform");
+  var translate = string.substring(string.indexOf("(")+1, string.indexOf(")")).split(",");
+
+  var w = Number(myBrush.attr("width"));
+  var xVal = Number(translate[0]) + w/2;
+  
+  //console.log(xVal);
+  move(xVal+1, myBrush);
+}
+/*
+function step() {
+  //update(x.invert(currentValue));
+  //currentValue = currentValue + (targetValue/151);
+  sel = d3.brushSelection(d3.select(".brush").node());
+  newSel = sel.map(x => x + (1*direction));
+  if (newSel[0] < x.range()[0] || newSel[1] > x.range()[1]) {
+    stopPlayback();
+    gBrush.call(brush.move, sel);
+  } else {
+    gBrush.call(brush.move, newSel);
+  }
+
+}*/
+
+var deltaDays = d3.timeDay.count(new Date(1914, 0, 1), new Date(1914, 0, 20));
+
+
+function brushmoved() {
+  //if (!d3.event.sourceEvent) return;
+  if (!d3.event.selection) return;
+  /*if (d3.event.sourceEvent) {
+    console.log(d3.event.sourceEvent.type);
+  }*/
+  
+  if (moving && d3.event.sourceEvent && (d3.event.sourceEvent.type.startsWith("mouse") || d3.event.sourceEvent.type.startsWith("touch"))) stopPlayback();
+  var s = d3.event.selection; // || prevSelection;
+  var sx = s.map(x.invert).map(d3.timeDay.round);
+
+  if (sx[0].getTime() === sx[1].getTime()) {
+    var d1 = new Date(sx[0]);
+    var d2 = new Date(sx[0]);
+    d1.setDate(d1.getDate() - (deltaDays/2));
+    d2.setDate(d2.getDate() + (deltaDays/2));
+    if (d1.getTime() < x.domain()[0].getTime()) {
+      delta = d3.timeDay.count(d1, x.domain()[0]);
+      d1 = x.domain()[0];
+      d2.setDate(d2.getDate() + delta);
+    }
+    if (d2.getTime() > x.domain()[1].getTime()) {
+      delta = d3.timeDay.count(x.domain()[1], d2);
+      d2 = x.domain()[1];
+      d1.setDate(d1.getDate() - delta);
+    }
+
+    sx = [d1,d2];
+    s = sx.map(x);
+    d3.select(this).call(d3.event.target.move, s);
+  }
+  
+  deltaDays = d3.timeDay.count(sx[0], sx[1]);
+  //circle.classed("active", function(d) { return sx[0] <= d && d <= sx[1]; });
+  if (moving) {
+    handle.attr("display", "none");
+    play.attr("display", "none");
+  } else {
+    handle.attr("display", null).attr("transform", function(d, i) { return "translate(" + [ s[i], - height / 4] + ")"; });
+
+    play.attr("display", function(d,i){
+      if ((i == 0) && s[i] <= x.range()[i]) return "none";
+      else if((i == 1) && s[i] >= x.range()[i]) return "none";
+      else return null;
+
+    }).attr("transform", function(d, i) { return "translate(" + [ s[i],  height / 2] + ")"; });
+  }
+/*
+  if (placeOverlay) {
+    placesOverlay.options.f1 = sx[0].toISOString().slice(0,10);
+    placesOverlay.options.f2 = sx[1].toISOString().slice(0,10);
+    console.log(placesOverlay.options)
+  }*/
+
+  updateFilter(sx[0].toISOString().slice(0,10), sx[1].toISOString().slice(0,10));
+  
+
+}
+
+
+
+});
+
+
+</script>
+    
+</body>
+</html>

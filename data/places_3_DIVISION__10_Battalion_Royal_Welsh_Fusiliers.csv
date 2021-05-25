@@ -1,0 +1,473 @@
+#Unit,PageNum,PageID,Date,Place,name,country,longitude,latitude
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,2.0,AWD0000n5q,1915-09-27,Folkestone,Folkestone,United Kingdom,1.1663557,51.0887105
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,2.0,AWD0000n5q,1915-09-27,Boulogne,Boulogne,France,-1.3207157,46.7945085
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,2.0,AWD0000n5q,1915-09-29,Caestre,Caestre,FR,2.6027400000000003,50.758379999999995
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,2.0,AWD0000n5q,1915-09-29,Merris,Merris,France,2.661152,50.7159968
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,2.0,AWD0000n5q,1915-09-29,Nieppe,Nieppe,France,2.8403065,50.703612
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,5.0,AWD0000n4g,1915-10-04,Bailleul,Bailleul,France,2.7349286,50.7396668
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,5.0,AWD0000n4g,1915-10-07,Ploegsteerte Wood,Abbey Wood,United Kingdom,0.1140504,51.487621
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,5.0,AWD0000n4g,1915-10-09,Bailleul,Bailleul,France,2.7349286,50.7396668
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,5.0,AWD0000n4g,1915-10-10,Ypres,Ypres,Belgium,2.8846046999999997,50.8521947
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,5.0,AWD0000n4g,1915-10-10,Poperinghe,Poperinge,BE,2.7265900000000003,50.85386
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,7.0,AWD0000n61,1915-10-21,Eecke,Eecke,France,2.5966366,50.7790852
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,9.0,AWD0000n79,1915-10-27,Reninghelst,Reningelst,BE,2.77066,50.81514
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,10.0,AWD0000n5c,1915-11-20,Eecke,Eecke,France,2.5966366,50.7790852
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,10.0,AWD0000n5c,1915-11-21,Reninghelst,Reningelst,BE,2.77066,50.81514
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,10.0,AWD0000n5c,1915-11-21,Ypres,Ypres,Belgium,2.8846046999999997,50.8521947
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,11.0,AWD0000n4x,1915-11-28,Dickebusch,Dikkebus,BE,2.8287299999999997,50.82131
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,13.0,AWD0000n7d,1915-12-10,Dickebusch,Dikkebus,BE,2.8287299999999997,50.82131
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,25.0,AWD0000n5d,1916-02-06,Audruicq,Audruicq,France,2.0752362,50.8786489
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,25.0,AWD0000n5d,1916-02-06,Hellebronck,Hellebroek,NL,5.895919999999999,50.9125
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,25.0,AWD0000n5d,1916-02-06,Poperinghe,Poperinge,BE,2.7265900000000003,50.85386
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,25.0,AWD0000n5d,1916-02-07,Ganspette,Ganspette,FR,2.17132,50.81677
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,25.0,AWD0000n5d,1916-02-08,Audruicq,Audruicq,France,2.0752362,50.8786489
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,25.0,AWD0000n5d,1916-02-15,Ganspette,Ganspette,FR,2.17132,50.81677
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,25.0,AWD0000n5d,1916-02-15,Watten,Watten,France,2.212066,50.8324023
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,25.0,AWD0000n5d,1916-02-15,Poperinghe,Poperinge,BE,2.7265900000000003,50.85386
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,28.0,AWD0000n34,1916-03-03,Poperinge,Poperinge,Belgium,2.7264961,50.8556646
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,35.0,AWD0000n6q,1916-04-01,Saint Eloi,Saint Eloi,Belgium,5.1047399,49.8761297
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,35.0,AWD0000n6q,1916-04-02,Bailleul,Bailleul,France,2.7349286,50.7396668
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,35.0,AWD0000n6q,1916-04-02,Meteren,Meteren,The Netherlands,5.2832386,51.863605
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,35.0,AWD0000n6q,1916-04-06,Caestre,Caestre,FR,2.6027400000000003,50.758379999999995
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,36.0,AWD0000n2q,1916-04-08,Saint Eloi,Saint Eloi,Belgium,5.1047399,49.8761297
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,38.0,AWD0000n66,1916-04-18,La Clytte,De Klijte,BE,2.7983599999999997,50.79957
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,38.0,AWD0000n66,1916-04-18,Bailleul,Bailleul,France,2.7349286,50.7396668
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,38.0,AWD0000n66,1916-04-19,La Clytte,De Klijte,BE,2.7983599999999997,50.79957
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,38.0,AWD0000n66,1916-04-19,Reninghelst,Reningelst,BE,2.77066,50.81514
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,38.0,AWD0000n66,1916-04-22,Berthen,Berthen,France,2.6948334,50.7830945
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,39.0,AWD0000n2b,1916-04-24,Fletre,Flêtre,France,2.6456516,50.7533476
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,39.0,AWD0000n2b,1916-04-24,Eecke,Eecke,France,2.5966366,50.7790852
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,39.0,AWD0000n2b,1916-04-25,Eecke,Eecke,France,2.5966366,50.7790852
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,40.0,AWD0000n42,1916-04-27,Kemmel,Kemmel,Belgium,2.8258709,50.7828552
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,40.0,AWD0000n42,1916-04-28,Lindenhoek,Lindenhoek,BE,2.8166700000000002,50.76667
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,40.0,AWD0000n42,1916-04-28,Kemmel Trenches,Kemmel,Belgium,2.8258709,50.7828552
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,40.0,AWD0000n42,1916-04-28,Kemmel,Kemmel,Belgium,2.8258709,50.7828552
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,41.0,AWD0000n3h,1916-04-30,Kemmel,Kemmel,Belgium,2.8258709,50.7828552
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,41.0,AWD0000n3h,1916-04-30,Kemmel Trenches,Kemmel,Belgium,2.8258709,50.7828552
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,41.0,AWD0000n3h,1916-04-30,Piccadilly,Piccadilly,United Kingdom,-2.2252035,53.4797939
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,41.0,AWD0000n3h,1916-04-30,Lindenhoek,Lindenhoek,BE,2.8166700000000002,50.76667
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,42.0,AWD0000n7x,1916-04-29,Kemmel,Kemmel,Belgium,2.8258709,50.7828552
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,45.0,AWD0000n6u,1916-05-01,Kemmel,Kemmel,Belgium,2.8258709,50.7828552
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,45.0,AWD0000n6u,1916-05-02,Kemmel,Kemmel,Belgium,2.8258709,50.7828552
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,45.0,AWD0000n6u,1916-05-04,Kemmel,Kemmel,Belgium,2.8258709,50.7828552
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,45.0,AWD0000n6u,1916-05-05,Kemmel,Kemmel,Belgium,2.8258709,50.7828552
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,46.0,AWD0000n49,1916-05-06,Kemmel,Kemmel,Belgium,2.8258709,50.7828552
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,46.0,AWD0000n49,1916-05-06,Lindenhoek,Lindenhoek,BE,2.8166700000000002,50.76667
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,46.0,AWD0000n49,1916-05-09,Locre,Locre,Italy,11.2320141,45.7111176
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,47.0,AWD0000n3q,1916-05-12,Kemmel,Kemmel,Belgium,2.8258709,50.7828552
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,47.0,AWD0000n3q,1916-05-14,Kemmel,Kemmel,Belgium,2.8258709,50.7828552
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,48.0,AWD0000n46,1916-05-16,Kemmel,Kemmel,Belgium,2.8258709,50.7828552
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,48.0,AWD0000n46,1916-05-17,Kemmel,Kemmel,Belgium,2.8258709,50.7828552
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,49.0,AWD0000n75,1916-05-21,Locre,Locre,Italy,11.2320141,45.7111176
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,53.0,AWD0000n4h,1916-06-04,Meteren,Meteren,The Netherlands,5.2832386,51.863605
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,54.0,AWD0000n2s,1916-06-05,Meteren,Meteren,The Netherlands,5.2832386,51.863605
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,54.0,AWD0000n2s,1916-06-05,Bailleul,Bailleul,France,2.7349286,50.7396668
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,55.0,AWD0000n8s,1916-06-08,Meteren,Meteren,The Netherlands,5.2832386,51.863605
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,55.0,AWD0000n8s,1916-06-08,Bailleul,Bailleul,France,2.7349286,50.7396668
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,56.0,AWD0000n2f,1916-06-09,Meteren,Meteren,The Netherlands,5.2832386,51.863605
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,56.0,AWD0000n2f,1916-06-10,Meteren,Meteren,The Netherlands,5.2832386,51.863605
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,56.0,AWD0000n2f,1916-06-11,Hardifort,Hardifort,France,2.4859078,50.8207229
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,56.0,AWD0000n2f,1916-06-11,Cassel,Cassel,France,2.4868314,50.8000011
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,56.0,AWD0000n2f,1916-06-12,Lederzeele,Lederzeele,France,2.3030594,50.8196325
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,56.0,AWD0000n2f,1916-06-13,Eperlecques,Eperlecques,FR,2.15207,50.805659999999996
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,56.0,AWD0000n2f,1916-06-14,Eperlecques,Eperlecques,FR,2.15207,50.805659999999996
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,56.0,AWD0000n2f,1916-06-15,Eperlecques,Eperlecques,FR,2.15207,50.805659999999996
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,56.0,AWD0000n2f,1916-06-16,Eperlecques,Eperlecques,FR,2.15207,50.805659999999996
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,57.0,AWD0000n77,1916-06-17,Eperlecques,Eperlecques,FR,2.15207,50.805659999999996
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,57.0,AWD0000n77,1916-06-18,Calais,Calais,France,1.8746800000000001,50.9488
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,57.0,AWD0000n77,1916-06-21,Eperlecques,Eperlecques,FR,2.15207,50.805659999999996
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,58.0,AWD0000n30,1916-06-22,Eperlecques,Eperlecques,FR,2.15207,50.805659999999996
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,58.0,AWD0000n30,1916-06-23,Eperlecques,Eperlecques,FR,2.15207,50.805659999999996
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,58.0,AWD0000n30,1916-06-24,Eperlecques,Eperlecques,FR,2.15207,50.805659999999996
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,58.0,AWD0000n30,1916-06-25,Eperlecques,Eperlecques,FR,2.15207,50.805659999999996
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,58.0,AWD0000n30,1916-06-26,Eperlecques,Eperlecques,FR,2.15207,50.805659999999996
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,58.0,AWD0000n30,1916-06-27,Eperlecques,Eperlecques,FR,2.15207,50.805659999999996
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,58.0,AWD0000n30,1916-06-28,Eperlecques,Eperlecques,FR,2.15207,50.805659999999996
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,59.0,AWD0000n7i,1916-06-30,Eperlecques,Eperlecques,FR,2.15207,50.805659999999996
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,61.0,AWD0000n73,1916-06-30,Eperlecques,Eperlecques,FR,2.15207,50.805659999999996
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,61.0,AWD0000n73,1916-07-01,Saint Omer,Saint-Omer,France,2.2540754,50.7521914
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,61.0,AWD0000n73,1916-07-02,Doullens,Doullens,France,2.3410532,50.1572085
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,61.0,AWD0000n73,1916-07-02,Gezaincourt,Gezaincourt,FR,2.32098,50.14074
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,61.0,AWD0000n73,1916-07-03,Naours,Naours,France,2.2748218,50.0341443
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,61.0,AWD0000n73,1916-07-04,Rainneville,Rainneville,France,2.3553166,49.9722345
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,61.0,AWD0000n73,1916-07-04,Naours,Naours,France,2.2748218,50.0341443
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,61.0,AWD0000n73,1916-07-05,Rainneville,Rainneville,France,2.3553166,49.9722345
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,61.0,AWD0000n73,1916-07-05,Franvillers,Franvillers,France,2.506784,49.9654632
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,62.0,AWD0000n5j,1916-07-06,Carnoy,Carnoy,France,2.7563297,49.9853379
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,62.0,AWD0000n5j,1916-07-06,Franvillers,Franvillers,France,2.506784,49.9654632
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,62.0,AWD0000n5j,1916-07-08,Carnoy,Carnoy,France,2.7563297,49.9853379
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,63.0,AWD0000n6f,1916-07-13,Longueval,Longueval,France,-0.2872381,49.2160282
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,63.0,AWD0000n6f,1916-07-13,Breslau,Breslau,France,-4.1955171,48.6399187
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,63.0,AWD0000n6f,1916-07-13,Breslau Trenches,Breslau,France,-4.1955171,48.6399187
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,63.0,AWD0000n6f,1916-07-13,Montauban,Montauban,France,-2.4537307,48.1097629
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,63.0,AWD0000n6f,1916-07-14,Montauban Alley,Montauban,France,-2.4537307,48.1097629
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,64.0,AWD0000n41,1916-07-14,Montauban Alley,Montauban,France,-2.4537307,48.1097629
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,64.0,AWD0000n41,1916-07-14,Montauban,Montauban,France,-2.4537307,48.1097629
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,65.0,AWD0000n33,1916-07-15,Montauban Alley,Montauban,France,-2.4537307,48.1097629
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,66.0,AWD0000n4y,1916-07-15,Montauban Alley,Montauban,France,-2.4537307,48.1097629
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,66.0,AWD0000n4y,1916-07-15,Montauban,Montauban,France,-2.4537307,48.1097629
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,66.0,AWD0000n4y,1916-07-16,High Wood,High Wood,United Kingdom,-2.1995349,51.7671349
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,67.0,AWD0000n6n,1916-07-19,Breslau,Breslau,France,-4.1955171,48.6399187
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,70.0,AWD0000n57,1916-07-20,Breslau,Breslau,France,-4.1955171,48.6399187
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,72.0,AWD0000n3w,1916-07-21,Breslau,Breslau,France,-4.1955171,48.6399187
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,72.0,AWD0000n3w,1916-07-21,Breslau Trenches,Breslau,France,-4.1955171,48.6399187
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,72.0,AWD0000n3w,1916-07-23,Longueval,Longueval,France,-0.2872381,49.2160282
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,72.0,AWD0000n3w,1916-07-24,Montauban,Montauban,France,-2.4537307,48.1097629
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,72.0,AWD0000n3w,1916-07-25,Bois de Tailles,Au-dessus du Bois des Tailles,Belgium,5.3024702999999995,50.1540804
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,72.0,AWD0000n3w,1916-07-26,Somme,Vaux-sur-Somme,France,2.5493162,49.9220575
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,72.0,AWD0000n3w,1916-07-27,Erzingan,Erzingen,DE,8.81477,48.250679999999996
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,73.0,AWD0000n4b,1916-07-27,Bois de Tailles,Au-dessus du Bois des Tailles,Belgium,5.3024702999999995,50.1540804
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,73.0,AWD0000n4b,1916-07-28,Mericourt,Mericourt-l'Abbe,FR,2.56545,49.95213
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,73.0,AWD0000n4b,1916-07-29,Mericourt,Mericourt-l'Abbe,FR,2.56545,49.95213
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,73.0,AWD0000n4b,1916-07-30,Mericourt l'Abbe,Mericourt-l'Abbe,FR,2.56545,49.95213
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,73.0,AWD0000n4b,1916-07-31,Longueval Ridge,Longueval,France,2.8039932,50.0262243
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,74.0,AWD0000n3a,1916-07-31,Mericourt,Mericourt-l'Abbe,FR,2.56545,49.95213
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,74.0,AWD0000n3a,1916-07-31,Mericourt l'Abbe,Mericourt-l'Abbe,FR,2.56545,49.95213
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,77.0,AWD0000n74,1916-08-05,Montauban,Montauban,France,3.8442515999999998,48.2987352
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,78.0,AWD0000n3t,1916-08-06,Mericourt l'Abbe,Mericourt-l'Abbe,FR,2.56545,49.95213
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,78.0,AWD0000n3t,1916-08-09,Marett Wood,Wood Green,United Kingdom,-0.1091471,51.5959898
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,79.0,AWD0000n4t,1916-08-10,Mericourt l'Abbe,Mericourt-l'Abbe,FR,2.56545,49.95213
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,79.0,AWD0000n4t,1916-08-11,Meaulte,Meaulte,FR,2.66121,49.98167
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,79.0,AWD0000n4t,1916-08-12,Meaulte,Meaulte,FR,2.66121,49.98167
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,79.0,AWD0000n4t,1916-08-14,Sand Pits,The Sand Pits,United Kingdom,-0.5486357289546681,51.337369699999996
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,79.0,AWD0000n4t,1916-08-14,Carnoy Valley,Carnoy,France,2.7563297,49.9853379
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,81.0,AWD0000na6,1916-08-17,Bruay,Bruay-la-Buissière,France,2.5461922,50.4821963
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,82.0,AWD0000n7r,1916-08-17,Bruay,Bruay-la-Buissière,France,2.5461922,50.4821963
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,83.0,AWD0000n32,1916-08-18,Chimpanzee Trench,Trench Green,United Kingdom,-1.013536,51.494467
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,84.0,AWD0000n4n,1916-08-19,Chimpanzee Trench,Trench Green,United Kingdom,-1.013536,51.494467
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,84.0,AWD0000n4n,1916-08-20,Happy Valley,Happy Valley,United Kingdom,-5.0504536,56.8492455
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,84.0,AWD0000n4n,1916-08-21,Morlancourt,Morlancourt,France,2.6288324,49.9504686
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,84.0,AWD0000n4n,1916-08-22,Doullens,Doullens,France,2.3410532,50.1572085
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,84.0,AWD0000n4n,1916-08-22,Morlancourt,Morlancourt,France,2.6288324,49.9504686
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,84.0,AWD0000n4n,1916-08-23,Mericourt l'Abbe,Mericourt-l'Abbe,FR,2.56545,49.95213
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,84.0,AWD0000n4n,1916-08-23,Candas,Candas,France,2.2587844,50.1068897
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,84.0,AWD0000n4n,1916-08-23,Bois Bergues,Boisbergues,FR,2.22948,50.15367
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,84.0,AWD0000n4n,1916-08-23,Fienvillers,Fienvillers,France,2.2281644,50.1177927
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,85.0,AWD0000n37,1916-08-24,Bois Bergues,Boisbergues,FR,2.22948,50.15367
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,85.0,AWD0000n37,1916-08-25,Fortel,Fortel-en-Artois,France,2.2249501,50.2583402
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,85.0,AWD0000n37,1916-08-25,Vacquerie,Vacquerie,France,2.1679874,50.1216709
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,85.0,AWD0000n37,1916-08-26,Croix,Croix,France,3.1521074000000002,50.6783122
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,85.0,AWD0000n37,1916-08-26,Croix Oeuf,Croix,France,3.1521074000000002,50.6783122
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,85.0,AWD0000n37,1916-08-26,Oeuf,Le Bois Ouf,France,0.7803485,49.6224749
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,85.0,AWD0000n37,1916-08-27,Bergueneuse,Bergueneuse,France,2.2535007,50.4686059
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,85.0,AWD0000n37,1916-08-27,Fiefs,Fiefs,France,2.3288853,50.5034427
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,85.0,AWD0000n37,1916-08-28,Sachin,Sachin,France,2.3753599,50.4866492
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,85.0,AWD0000n37,1916-08-29,Bruay,Bruay-la-Buissière,France,2.5461922,50.4821963
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,85.0,AWD0000n37,1916-08-29,Pernes,Pernes,France,2.4143727,50.4852058
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,85.0,AWD0000n37,1916-08-30,Bruay,Bruay-la-Buissière,France,2.5461922,50.4821963
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,86.0,AWD0000n80,1916-08-30,Bruay,Bruay-la-Buissière,France,2.5461922,50.4821963
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,87.0,AWD0000n6t,1916-08-31,Noeux Les Mines,Nœux-les-Mines,France,2.6621899,50.4754
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,92.0,AWD0000n5i,1916-09-01,Loos,Loos,France,3.0162523,50.6092082
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,92.0,AWD0000n5i,1916-09-02,Loos,Loos,France,3.0162523,50.6092082
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,92.0,AWD0000n5i,1916-09-02,Loos Trenches,Loos-en-Gohelle,France,2.792593,50.4576111
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,93.0,AWD0000n3n,1916-09-08,Loos Trenches,Loos-en-Gohelle,France,2.792593,50.4576111
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,93.0,AWD0000n3n,1916-09-08,Loos,Loos,France,3.0162523,50.6092082
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,94.0,AWD0000n62,1916-09-13,Loos,Loos,France,3.0162523,50.6092082
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,94.0,AWD0000n62,1916-09-13,Loos Trenches,Loos-en-Gohelle,France,2.792593,50.4576111
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,94.0,AWD0000n62,1916-09-16,Mazingarbe,Mazingarbe,France,2.7185236,50.4693066
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,94.0,AWD0000n62,1916-09-17,Mazingarbe,Mazingarbe,France,2.7185236,50.4693066
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,95.0,AWD0000n47,1916-09-18,Mazingarbe,Mazingarbe,France,2.7185236,50.4693066
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,96.0,AWD0000n25,1916-09-21,Mazingarbe,Mazingarbe,France,2.7185236,50.4693066
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,96.0,AWD0000n25,1916-09-23,Lozinghem,Lozinghem,France,2.4996723,50.5178194
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,96.0,AWD0000n25,1916-09-24,Liettres,Liettres,France,2.3418474,50.5957499
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,97.0,AWD0000n2i,1916-09-26,Liettres,Liettres,France,2.3418474,50.5957499
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,97.0,AWD0000n2i,1916-09-29,Liettres,Liettres,France,2.3418474,50.5957499
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,98.0,AWD0000n9s,1916-09-30,Liettres,Liettres,France,2.3418474,50.5957499
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,100.0,AWD0000n2x,1916-10-01,Liettres,Liettres,France,2.3418474,50.5957499
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,100.0,AWD0000n2x,1916-10-06,Fiefs,Fiefs,France,2.3288853,50.5034427
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,100.0,AWD0000n2x,1916-10-07,Saint Pol,Saint-Pol-sur-Ternoise,France,2.3361053,50.3812113
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,100.0,AWD0000n2x,1916-10-07,Acheux,Acheux-en-Amiénois,France,2.5306202,50.0728994
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,100.0,AWD0000n2x,1916-10-08,Bertrancourt,Bertrancourt,France,2.5559172,50.0933584
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,100.0,AWD0000n2x,1916-10-09,Bertrancourt,Bertrancourt,France,2.5559172,50.0933584
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,101.0,AWD0000n2w,1916-10-11,Bertrancourt,Bertrancourt,France,2.5559172,50.0933584
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,102.0,AWD0000n23,1916-10-17,Louvencourt,Louvencourt,France,2.4993596,50.0942011
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,102.0,AWD0000n23,1916-10-17,Bertrancourt,Bertrancourt,France,2.5559172,50.0933584
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,102.0,AWD0000n23,1916-10-19,Somme,Cléry-sur-Somme,France,2.8836029,49.957428
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,102.0,AWD0000n23,1916-10-22,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,103.0,AWD0000n6h,1916-10-29,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,108.0,AWD0000n7k,1916-11-05,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,108.0,AWD0000n7k,1916-11-10,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,108.0,AWD0000n7k,1916-11-12,Serre,Serre,Italy,15.185554,40.582511
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,109.0,AWD0000n7y,1916-11-13,Serre,Serre,Italy,15.185554,40.582511
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,109.0,AWD0000n7y,1916-11-13,Serre Trenches,Serre,Italy,15.185554,40.582511
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,110.0,AWD0000n64,1916-11-15,Courcelles,Buire-Courcelles,France,3.01391,49.92675
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,110.0,AWD0000n64,1916-11-18,Serre,Serre,Italy,15.185554,40.582511
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,110.0,AWD0000n64,1916-11-18,Serre Trenches,Serre,Italy,15.185554,40.582511
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,110.0,AWD0000n64,1916-11-19,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,110.0,AWD0000n64,1916-11-20,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,111.0,AWD0000n3x,1916-11-23,Bus,Bus,France,2.9646497,50.0645843
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,111.0,AWD0000n3x,1916-11-27,Serre,Serre,Italy,15.185554,40.582511
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,111.0,AWD0000n3x,1916-11-28,Serre Trenches,Serre,Italy,15.185554,40.582511
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,116.0,AWD0000n6y,1916-12-01,Serre Trenches,Serre,Italy,15.185554,40.582511
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,116.0,AWD0000n6y,1916-12-01,Courcelles,Courcelles-le-Comte,France,2.7741831,50.163614
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,116.0,AWD0000n6y,1916-12-02,Courcelles,Courcelles-le-Comte,France,2.7741831,50.163614
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,116.0,AWD0000n6y,1916-12-05,Louvencourt,Louvencourt,France,2.4993596,50.0942011
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,117.0,AWD0000n2p,1916-12-06,Louvencourt,Louvencourt,France,2.4993596,50.0942011
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,118.0,AWD0000n2o,1916-12-12,Louvencourt,Louvencourt,France,2.4993596,50.0942011
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,118.0,AWD0000n2o,1916-12-14,Serre Trenches,Assis-sur-Serre,France,3.5594444,49.6888889
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,118.0,AWD0000n2o,1916-12-17,Courcelles,Courcelles-le-Comte,France,2.7741831,50.163614
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,118.0,AWD0000n2o,1916-12-18,Courcelles,Courcelles-le-Comte,France,2.7741831,50.163614
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,119.0,AWD0000n70,1916-12-19,Courcelles,Courcelles-le-Comte,France,2.7741831,50.163614
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,119.0,AWD0000n70,1916-12-20,Louvencourt,Louvencourt,France,2.4993596,50.0942011
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,119.0,AWD0000n70,1916-12-21,Courcelles,Courcelles-le-Comte,France,2.7741831,50.163614
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,119.0,AWD0000n70,1916-12-21,Louvencourt,Louvencourt,France,2.4993596,50.0942011
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,119.0,AWD0000n70,1916-12-22,Louvencourt,Louvencourt,France,2.4993596,50.0942011
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,120.0,AWD0000n29,1916-12-23,Louvencourt,Louvencourt,France,2.4993596,50.0942011
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,121.0,AWD0000n5p,1916-12-29,Louvencourt,Louvencourt,France,2.4993596,50.0942011
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,121.0,AWD0000n5p,1916-12-29,Serre,Serre,Italy,15.185554,40.582511
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,121.0,AWD0000n5p,1916-12-30,Serre,Serre,Italy,15.185554,40.582511
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,121.0,AWD0000n5p,1916-12-30,Serre Trenches,Serre,Italy,15.185554,40.582511
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,123.0,AWD0000n4r,1917-01-01,Courcelles,Courcelles-le-Comte,France,2.7741831,50.163614
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,123.0,AWD0000n4r,1917-01-03,Serre Trenches,Serre,Italy,15.185554,40.582511
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,123.0,AWD0000n4r,1917-01-03,Serre,Serre,Italy,15.185554,40.582511
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,123.0,AWD0000n4r,1917-01-05,Courcelles,Courcelles-le-Comte,France,2.7741831,50.163614
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,123.0,AWD0000n4r,1917-01-06,Rubempre,Rubempre,FR,2.38544,50.01859
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,123.0,AWD0000n4r,1917-01-06,Courcelles,Courcelles-le-Comte,France,2.7741831,50.163614
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,123.0,AWD0000n4r,1917-01-07,Rubempre,Rubempre,FR,2.38544,50.01859
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,124.0,AWD0000n4e,1917-01-08,Rubempre,Rubempre,FR,2.38544,50.01859
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,124.0,AWD0000n4e,1917-01-09,Halloy,Halloy,France,2.4255,50.15713
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,124.0,AWD0000n4e,1917-01-10,Halloy,Halloy,France,2.4255,50.15713
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,125.0,AWD0000n6l,1917-01-14,Halloy,Halloy,France,2.4255,50.15713
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,126.0,AWD0000n7h,1917-01-20,Halloy,Halloy,France,2.4255,50.15713
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,127.0,AWD0000n5m,1917-01-26,Halloy,Halloy,France,2.4255,50.15713
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,127.0,AWD0000n5m,1917-01-28,Amplier,Amplier,France,2.400252,50.1374197
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,127.0,AWD0000n5m,1917-01-29,Amplier,Amplier,France,2.400252,50.1374197
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,127.0,AWD0000n5m,1917-01-29,Neuvillette,Neuvillette,France,2.3193303,50.2091272
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,127.0,AWD0000n5m,1917-01-30,Neuvillette,Neuvillette,France,2.3193303,50.2091272
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,127.0,AWD0000n5m,1917-01-30,Haute Cote,La Haute Cote,France,7.0414276,48.4895813
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,127.0,AWD0000n5m,1917-01-31,Bethonsart,Betonsart,Belgium,5.8213755,50.3675511
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,127.0,AWD0000n5m,1917-01-31,Haute Cote,La Haute Cote,France,7.0414276,48.4895813
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,128.0,AWD0000n2v,1917-02-01,Bethonsart,Betonsart,Belgium,5.8213755,50.3675511
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,128.0,AWD0000n2v,1917-02-04,Bethonsart,Betonsart,Belgium,5.8213755,50.3675511
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,128.0,AWD0000n2v,1917-02-06,Bethonsart,Betonsart,Belgium,5.8213755,50.3675511
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,129.0,AWD0000n9t,1917-02-07,Bethonsart,Betonsart,Belgium,5.8213755,50.3675511
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,129.0,AWD0000n9t,1917-02-08,Bethonsart,Betonsart,Belgium,5.8213755,50.3675511
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,129.0,AWD0000n9t,1917-02-08,Hauteville,Hauteville,France,3.5230556,49.8783333
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,129.0,AWD0000n9t,1917-02-09,Hauteville,Hauteville,France,3.5230556,49.8783333
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,129.0,AWD0000n9t,1917-02-11,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,129.0,AWD0000n9t,1917-02-12,Hauteville,Hauteville,France,3.5230556,49.8783333
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,130.0,AWD0000n6b,1917-02-13,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,130.0,AWD0000n6b,1917-02-14,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,130.0,AWD0000n6b,1917-02-15,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,130.0,AWD0000n6b,1917-02-16,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,130.0,AWD0000n6b,1917-02-17,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,131.0,AWD0000n5e,1917-02-18,Arras Trenches,German Trenches,France,2.7725187,50.3715027
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,131.0,AWD0000n5e,1917-02-18,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,131.0,AWD0000n5e,1917-02-19,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,131.0,AWD0000n5e,1917-02-20,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,131.0,AWD0000n5e,1917-02-23,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,132.0,AWD0000n3b,1917-02-24,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,132.0,AWD0000n3b,1917-02-24,Arras Trenches,Canadian Trenches,France,2.7713841,50.3715164
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,132.0,AWD0000n3b,1917-02-25,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,132.0,AWD0000n3b,1917-02-26,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,132.0,AWD0000n3b,1917-02-27,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,132.0,AWD0000n3b,1917-02-28,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,132.0,AWD0000n3b,1917-02-28,Hauteville,Hauteville,France,2.573024,50.2736375
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,133.0,AWD0000n2e,1917-03-01,Hauteville,Hauteville,France,2.573024,50.2736375
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,133.0,AWD0000n2e,1917-03-04,Hauteville,Hauteville,France,2.573024,50.2736375
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,133.0,AWD0000n2e,1917-03-05,Hauteville,Hauteville,France,2.573024,50.2736375
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,133.0,AWD0000n2e,1917-03-06,Hauteville,Hauteville,France,2.573024,50.2736375
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,133.0,AWD0000n2e,1917-03-07,Hauteville,Hauteville,France,2.573024,50.2736375
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,134.0,AWD0000n8m,1917-03-08,Hauteville,Hauteville,France,2.573024,50.2736375
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,135.0,AWD0000n3f,1917-03-13,Hauteville,Hauteville,France,2.573024,50.2736375
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,135.0,AWD0000n3f,1917-03-14,Hauteville,Hauteville,France,2.573024,50.2736375
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,135.0,AWD0000n3f,1917-03-15,Hauteville,Hauteville,France,2.573024,50.2736375
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,135.0,AWD0000n3f,1917-03-16,Hauteville,Hauteville,France,2.573024,50.2736375
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,135.0,AWD0000n3f,1917-03-16,Berlencourt,Berlencourt-le-Cauroy,France,2.4234539,50.2793248
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,135.0,AWD0000n3f,1917-03-17,Berlencourt,Berlencourt-le-Cauroy,France,2.4234539,50.2793248
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,136.0,AWD0000n9w,1917-03-18,Berlencourt,Berlencourt-le-Cauroy,France,2.4234539,50.2793248
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,137.0,AWD0000n63,1917-03-22,Berlencourt,Berlencourt-le-Cauroy,France,2.4234539,50.2793248
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,138.0,AWD0000n39,1917-03-27,Berlencourt,Berlencourt-le-Cauroy,France,2.4234539,50.2793248
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,140.0,AWD0000n4k,1917-04-01,Berlencourt,Berlencourt-le-Cauroy,France,2.4234539,50.2793248
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,140.0,AWD0000n4k,1917-04-04,Wanquetin,Wanquetin,France,2.6129655,50.2762664
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,140.0,AWD0000n4k,1917-04-05,Wanquetin,Wanquetin,France,2.6129655,50.2762664
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,140.0,AWD0000n4k,1917-04-06,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,141.0,AWD0000n5z,1917-04-06,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,141.0,AWD0000n5z,1917-04-06,Wanquetin,Wanquetin,France,2.6129655,50.2762664
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,141.0,AWD0000n5z,1917-04-06,Tilloy,Tilloy,France,1.5803775,50.1391369
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,142.0,AWD0000n45,1917-04-06,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,142.0,AWD0000n45,1917-04-06,Feuchy Chappelle,Feuchy,France,2.8449543,50.2944503
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,142.0,AWD0000n45,1917-04-06,Guemappe,Guemappe,FR,2.88984,50.25428
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,142.0,AWD0000n45,1917-04-06,Les Fossees Farm,Les Fossées,France,2.1208663,48.4982754
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,143.0,AWD0000n3y,1917-04-06,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,144.0,AWD0000n44,1917-04-14,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,144.0,AWD0000n44,1917-04-16,Daineville,Dainville,France,2.72248,50.2807141
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,145.0,AWD0000n5y,1917-04-20,Arras,Arras,France,0.9368312,48.1062688
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,145.0,AWD0000n5y,1917-04-23,Bois des Boeufs,Le Bois des Boeufs,France,3.6628363999999998,45.4811985
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,145.0,AWD0000n5y,1917-04-24,Bois des Boeufs,Le Bois des Boeufs,France,3.6628363999999998,45.4811985
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,145.0,AWD0000n5y,1917-04-25,Monchy,Monchy,France,1.9821057,49.3976954
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,146.0,AWD0000n3j,1917-04-26,Monchy,Monchy,France,1.9821057,49.3976954
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,148.0,AWD0000n5t,1917-05-15,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,148.0,AWD0000n5t,1917-05-15,Bois des Boeuf,Le Bois des Boeufs,France,3.6628363999999998,45.4811985
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,148.0,AWD0000n5t,1917-05-15,Bois des Boeufs,Le Bois des Boeufs,France,3.6628363999999998,45.4811985
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,148.0,AWD0000n5t,1917-05-15,Monchy,Monchy,France,1.9821057,49.3976954
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,148.0,AWD0000n5t,1917-05-15,Tilloy,Tilloy,France,1.5803775,50.1391369
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,148.0,AWD0000n5t,1917-05-03,Monchy,Monchy,France,1.9821057,49.3976954
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,148.0,AWD0000n5t,1917-05-03,Tilloy,Tilloy,France,1.5803775,50.1391369
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,148.0,AWD0000n5t,1917-05-03,Bois des Boeufs,Le Bois des Boeufs,France,3.6628363999999998,45.4811985
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,148.0,AWD0000n5t,1917-05-10,Tilloy,Tilloy,France,1.5803775,50.1391369
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,148.0,AWD0000n5t,1917-05-10,Monchy,Monchy,France,1.9821057,49.3976954
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,149.0,AWD0000n67,1917-05-15,Monchy,Monchy,France,1.9821057,49.3976954
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,149.0,AWD0000n67,1917-05-15,Tilloy,Tilloy,France,1.5803775,50.1391369
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,149.0,AWD0000n67,1917-05-15,Duisans,Duisans,France,2.6881101,50.3059788
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,149.0,AWD0000n67,1917-05-17,Lattre Saint Quentin,Lattre-Saint-Quentin,France,2.5799494,50.2881873
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,150.0,AWD0000n6p,1917-05-18,Lattre Saint Quentin,Lattre-Saint-Quentin,France,2.5799494,50.2881873
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,150.0,AWD0000n6p,1917-05-18,Berlencourt,Berlencourt-le-Cauroy,France,2.4234539,50.2793248
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,150.0,AWD0000n6p,1917-05-19,Berlencourt,Berlencourt-le-Cauroy,France,2.4234539,50.2793248
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,151.0,AWD0000n2r,1917-05-23,Berlencourt,Berlencourt-le-Cauroy,France,2.4234539,50.2793248
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,152.0,AWD0000n48,1917-05-27,Berlencourt,Berlencourt-le-Cauroy,France,2.4234539,50.2793248
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,153.0,AWD0000n2u,1917-05-31,Berlencourt,Berlencourt-le-Cauroy,France,2.4234539,50.2793248
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,154.0,AWD0000n58,1917-06-01,Berlencourt,Berlencourt-le-Cauroy,France,2.4234539,50.2793248
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,154.0,AWD0000n58,1917-06-02,Ambrines,Ambrines,France,2.4686935,50.3102474
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,154.0,AWD0000n58,1917-06-02,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,154.0,AWD0000n58,1917-06-03,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,154.0,AWD0000n58,1917-06-05,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,155.0,AWD0000n35,1917-06-06,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,156.0,AWD0000n4m,1917-06-12,Monchy,Monchy,France,1.9821057,49.3976954
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,156.0,AWD0000n4m,1917-06-13,Monchy,Monchy,France,1.9821057,49.3976954
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,156.0,AWD0000n4m,1917-06-16,Shrapnel Trench,Trench Green,United Kingdom,-1.013536,51.494467
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,157.0,AWD0000n2g,1917-06-17,Monchy,Monchy,France,1.9821057,49.3976954
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,157.0,AWD0000n2g,1917-06-20,Arras,Arras,France,2.7772211,50.291048
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,157.0,AWD0000n2g,1917-06-20,Halloy,Halloy,France,2.4255,50.15713
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,157.0,AWD0000n2g,1917-06-20,Doullens,Doullens,France,2.3410532,50.1572085
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,157.0,AWD0000n2g,1917-06-21,Halloy,Halloy,France,2.4255,50.15713
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,158.0,AWD0000n5l,1917-06-23,Halloy,Halloy,France,2.4255,50.15713
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,159.0,AWD0000n5k,1917-06-29,Halloy,Halloy,France,2.4255,50.15713
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,161.0,AWD0000n3k,1917-07-01,Halloy,Halloy,France,2.4255,50.15713
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,161.0,AWD0000n3k,1917-07-01,Doullens,Doullens,France,2.3410532,50.1572085
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,161.0,AWD0000n3k,1917-07-01,Achiet-le-Grande,Achiet-le-Grand,France,2.7843609,50.1320114
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,161.0,AWD0000n3k,1917-07-01,Bihucourt,Bihucourt,France,2.7997558,50.1268687
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,161.0,AWD0000n3k,1917-07-02,Bihucourt,Bihucourt,France,2.7997558,50.1268687
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,163.0,AWD0000n5a,1917-07-11,Louverval Trenches,German Trenches,France,2.7725187,50.3715027
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,164.0,AWD0000n6i,1917-07-15,Louverval Trenches,German Trenches,France,2.7725187,50.3715027
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,165.0,AWD0000n5g,1917-07-20,Louverval Trenches,German Trenches,France,2.7725187,50.3715027
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,165.0,AWD0000n5g,1917-07-24,Fremicourt,Frémicourt,France,2.9017375,50.1113349
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,166.0,AWD0000n2h,1917-07-25,Fremicourt,Frémicourt,France,2.9017375,50.1113349
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,168.0,AWD0000n5f,1917-08-01,Fremicourt,Frémicourt,France,2.9017375,50.1113349
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,168.0,AWD0000n5f,1917-08-02,Louverval Trenches,German Trenches,France,2.7725187,50.3715027
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,169.0,AWD0000n31,1917-08-06,Louverval Trenches,German Trenches,France,2.7725187,50.3715027
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,169.0,AWD0000n31,1917-08-10,Fremicourt,Frémicourt,France,2.9017375,50.1113349
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,170.0,AWD0000n5w,1917-08-11,Fremicourt,Frémicourt,France,2.9017375,50.1113349
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,170.0,AWD0000n5w,1917-08-14,Fremicourt,Frémicourt,France,2.9017375,50.1113349
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,171.0,AWD0000n7t,1917-08-15,Fremicourt,Frémicourt,France,2.9017375,50.1113349
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,172.0,AWD0000n6s,1917-08-18,Louverval Trenches,German Trenches,France,2.7725187,50.3715027
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,173.0,AWD0000n2j,1917-08-23,Louverval Trenches,German Trenches,France,2.7725187,50.3715027
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,173.0,AWD0000n2j,1917-08-25,Fremicourt,Frémicourt,France,2.9017375,50.1113349
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,174.0,AWD0000n4f,1917-08-27,Fremicourt,Frémicourt,France,2.9017375,50.1113349
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,174.0,AWD0000n4f,1917-08-29,Fremicourt,Frémicourt,France,2.9017375,50.1113349
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,175.0,AWD0000n9g,1917-08-31,Fremicourt,Frémicourt,France,2.9017375,50.1113349
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,176.0,AWD0000n9e,1917-09-01,Fremicourt,Frémicourt,France,2.9017375,50.1113349
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,176.0,AWD0000n9e,1917-09-03,Louverval,Loverval,BE,4.473319999999998,50.37519
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,176.0,AWD0000n9e,1917-09-03,Louverval Trenches,German Trenches,France,2.7725187,50.3715027
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,177.0,AWD0000n3g,1917-09-06,Barastre,Barastre,France,2.9340243,50.0760532
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,178.0,AWD0000n6v,1917-09-10,Barastre,Barastre,France,2.9340243,50.0760532
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,179.0,AWD0000n6d,1917-09-15,Barastre,Barastre,France,2.9340243,50.0760532
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,179.0,AWD0000n6d,1917-09-17,Bapaume,Bapaume,France,2.8497506,50.1038538
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,180.0,AWD0000n3e,1917-09-18,Godewaersvelde,Godewaersvelde,France,2.6429118,50.7942556
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,180.0,AWD0000n3e,1917-09-18,Watou,Watou,Belgium,2.6202796,50.8585545
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,180.0,AWD0000n3e,1917-09-19,Watou,Watou,Belgium,2.6202796,50.8585545
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,181.0,AWD0000n4l,1917-09-22,Watou,Watou,Belgium,2.6202796,50.8585545
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,181.0,AWD0000n4l,1917-09-23,Brandhoek,Brandhoek,Belgium,2.7902226,50.8551517
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,182.0,AWD0000n4i,1917-09-24,Brandhoek,Brandhoek,Belgium,2.7902226,50.8551517
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,182.0,AWD0000n4i,1917-09-25,Brandhoek,Brandhoek,Belgium,2.7902226,50.8551517
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,182.0,AWD0000n4i,1917-09-25,Ypres,Ypres,Belgium,2.8846046999999997,50.8521947
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,182.0,AWD0000n4i,1917-09-26,Ypres,Ypres,Belgium,2.8846046999999997,50.8521947
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,182.0,AWD0000n4i,1917-09-26,Zonnebeke,Zonnebeke,Belgium,2.9874678,50.8731885
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,183.0,AWD0000n6z,1917-09-26,Steenebeke,Steenbecque,FR,2.48442,50.674209999999995
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,183.0,AWD0000n6z,1917-09-26,Zonnebeke,Zonnebeke,Belgium,2.9874678,50.8731885
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,186.0,AWD0000n7f,1917-09-27,Zonnebeke,Zonnebeke,Belgium,2.9874678,50.8731885
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,187.0,AWD0000n1z,1917-09-29,Ypres,Ypres,Belgium,2.8846046999999997,50.8521947
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,189.0,AWD0000n5b,1917-09-30,Vlamertinghe,Vlamertinge,BE,2.82024,50.85485
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,189.0,AWD0000n5b,1917-09-30,Ypres,Ypres,Belgium,2.8846046999999997,50.8521947
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,189.0,AWD0000n5b,1917-09-30,Winezeele,Winnezeele,France,2.5512375,50.8400614
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,190.0,AWD0000n7j,1917-10-01,Winnezeele,Winnezeele,France,2.5512375,50.8400614
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,191.0,AWD0000n65,1917-10-04,Winnezeele,Winnezeele,France,2.5512375,50.8400614
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,191.0,AWD0000n65,1917-10-04,Arques,Arques,France,2.3062068,50.7396639
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,191.0,AWD0000n65,1917-10-04,Saint Omer,Saint-Omer,France,2.2540754,50.7521914
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,191.0,AWD0000n65,1917-10-05,Arques,Arques,France,2.3062068,50.7396639
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,191.0,AWD0000n65,1917-10-05,Wizernes,Wizernes,France,2.2306859,50.7115936
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,191.0,AWD0000n65,1917-10-06,Barastre,Barastre,France,2.9340243,50.0760532
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,191.0,AWD0000n65,1917-10-06,Bapaume,Bapaume,France,2.8497506,50.1038538
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,192.0,AWD0000n8k,1917-10-07,Barastre,Barastre,France,2.9340243,50.0760532
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,193.0,AWD0000n3z,1917-10-10,Barastre,Barastre,France,2.9340243,50.0760532
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,193.0,AWD0000n3z,1917-10-11,Mory,Mory,France,2.8556301,50.157595
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,193.0,AWD0000n3z,1917-10-11,Barastre,Barastre,France,2.9340243,50.0760532
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,193.0,AWD0000n3z,1917-10-12,Mory,Mory,France,2.8556301,50.157595
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,194.0,AWD0000n3d,1917-10-13,Mory,Mory,France,2.8556301,50.157595
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,195.0,AWD0000n7m,1917-10-17,Mory,Mory,France,2.8556301,50.157595
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,195.0,AWD0000n7m,1917-10-19,Mory Abbey,Mory,France,2.8556301,50.157595
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,195.0,AWD0000n7m,1917-10-19,Ecoust,Ecoust-Saint-Mein,FR,2.91236,50.18013
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,195.0,AWD0000n7m,1917-10-20,Bullecourt,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,195.0,AWD0000n7m,1917-10-20,Bullecourt Trenches,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,196.0,AWD0000n8y,1917-10-22,Bullecourt Trenches,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,196.0,AWD0000n8y,1917-10-22,Bullecourt,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,197.0,AWD0000n6j,1917-10-25,Bullecourt Trenches,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,197.0,AWD0000n6j,1917-10-25,Bullecourt,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,197.0,AWD0000n6j,1917-10-27,Mory,Mory,France,2.8556301,50.157595
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,198.0,AWD0000n6k,1917-10-28,Mory,Mory,France,2.8556301,50.157595
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,199.0,AWD0000n4w,1917-10-31,Zonnebeke,Zonnebeke,Belgium,2.9874678,50.8731885
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,200.0,AWD0000n4c,1917-11-01,Mory,Mory,France,2.8556301,50.157595
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,200.0,AWD0000n4c,1917-11-04,Bullecourt,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,200.0,AWD0000n4c,1917-11-05,Bullecourt,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,200.0,AWD0000n4c,1917-11-05,Bullecourt Trenches,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,201.0,AWD0000n4s,1917-11-06,Bullecourt Trenches,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,201.0,AWD0000n4s,1917-11-06,Bullecourt,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,201.0,AWD0000n4s,1917-11-08,Mory,Mory,France,2.8556301,50.157595
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,201.0,AWD0000n4s,1917-11-09,Mory,Mory,France,2.8556301,50.157595
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,202.0,AWD0000n5h,1917-11-11,Mory,Mory,France,2.8556301,50.157595
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,203.0,AWD0000na3,1917-11-16,Mory,Mory,France,2.8556301,50.157595
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,203.0,AWD0000na3,1917-11-16,Bullecourt,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,203.0,AWD0000na3,1917-11-17,Bullecourt,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,203.0,AWD0000na3,1917-11-17,Bullecourt Trenches,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,204.0,AWD0000n4j,1917-11-21,Favreiul,Favreuil,France,2.8567508,50.1239354
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,205.0,AWD0000n3u,1917-11-25,Favreiul,Favreuil,France,2.8567508,50.1239354
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,205.0,AWD0000n3u,1917-11-26,Bullecourt,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,205.0,AWD0000n3u,1917-11-27,Bullecourt,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,205.0,AWD0000n3u,1917-11-27,Bullecourt Trenches,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,206.0,AWD0000n7c,1917-11-29,Bullecourt,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,206.0,AWD0000n7c,1917-11-29,Bullecourt Trenches,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,206.0,AWD0000n7c,1917-11-30,Mory,Mory,France,2.8556301,50.157595
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,208.0,AWD0000n2t,1917-12-01,Mory,Mory,France,2.8556301,50.157595
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,208.0,AWD0000n2t,1917-12-04,Bullecourt,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,209.0,AWD0000n7s,1917-12-05,Bullecourt Trenches,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,209.0,AWD0000n7s,1917-12-05,Bullecourt,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,209.0,AWD0000n7s,1917-12-09,Mory,Mory,France,2.8556301,50.157595
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,209.0,AWD0000n7s,1917-12-09,Mory Abbey,Mory,France,2.8556301,50.157595
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,210.0,AWD0000n7e,1917-12-10,Mory,Mory,France,2.8556301,50.157595
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,210.0,AWD0000n7e,1917-12-12,Sycherie,Scheie,DE,9.05414,52.27669
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,210.0,AWD0000n7e,1917-12-12,Ecoust,Ecoust-Saint-Mein,FR,2.91236,50.18013
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,210.0,AWD0000n7e,1917-12-12,La Homme Mort,L'Homme Mort,France,3.989402,49.5752339
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,210.0,AWD0000n7e,1917-12-12,Mory Abbey,Mory,France,2.8556301,50.157595
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,210.0,AWD0000n7e,1917-12-12,Mory,Mory,France,2.8556301,50.157595
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,211.0,AWD0000n52,1917-12-13,Mory,Mory,France,2.8556301,50.157595
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,212.0,AWD0000n86,1917-12-17,Mory,Mory,France,2.8556301,50.157595
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,212.0,AWD0000n86,1917-12-17,Bullecourt,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,212.0,AWD0000n86,1917-12-17,Bullecourt Trenches,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,213.0,AWD0000n27,1917-12-21,Bullecourt Trenches,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,213.0,AWD0000n27,1917-12-21,Bullecourt,Bullecourt,France,2.9291218,50.1930877
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,213.0,AWD0000n27,1917-12-23,Ecoust,Ecoust-Saint-Mein,FR,2.91236,50.18013
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,213.0,AWD0000n27,1917-12-24,Ecoust,Ecoust-Saint-Mein,FR,2.91236,50.18013
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,214.0,AWD0000n7a,1917-12-25,Ecoust,Ecoust-Saint-Mein,FR,2.91236,50.18013
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,214.0,AWD0000n7a,1917-12-26,Ecoust,Ecoust-Saint-Mein,FR,2.91236,50.18013
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,214.0,AWD0000n7a,1917-12-27,Mory,Mory,France,2.8556301,50.157595
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,214.0,AWD0000n7a,1917-12-28,Mory,Mory,France,2.8556301,50.157595
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,215.0,AWD0000n5x,1917-12-29,Mory,Mory,France,2.8556301,50.157595
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,215.0,AWD0000n5x,1917-12-29,Blairville,Blairville,France,2.7145636,50.2198483
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,215.0,AWD0000n5x,1917-12-30,Blairville,Blairville,France,2.7145636,50.2198483
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,218.0,AWD0000na7,1918-01-01,Blairville,Blairville,France,2.7145636,50.2198483
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,219.0,AWD0000n9x,1918-01-05,Blairville,Blairville,France,2.7145636,50.2198483
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,219.0,AWD0000n9x,1918-01-07,Blairville,Blairville,France,2.7145636,50.2198483
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,219.0,AWD0000n9x,1918-01-08,Blairville,Blairville,France,2.7145636,50.2198483
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,219.0,AWD0000n9x,1918-01-09,Blairville,Blairville,France,2.7145636,50.2198483
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,219.0,AWD0000n9x,1918-01-10,Blairville,Blairville,France,2.7145636,50.2198483
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,220.0,AWD0000n6w,1918-01-11,Blairville,Blairville,France,2.7145636,50.2198483
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,220.0,AWD0000n6w,1918-01-12,Blairville,Blairville,France,2.7145636,50.2198483
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,220.0,AWD0000n6w,1918-01-13,Blairville,Blairville,France,2.7145636,50.2198483
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,220.0,AWD0000n6w,1918-01-14,Blairville,Blairville,France,2.7145636,50.2198483
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,221.0,AWD0000n3v,1918-01-15,Blairville,Blairville,France,2.7145636,50.2198483
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,222.0,AWD0000n76,1918-01-21,Blairville,Blairville,France,2.7145636,50.2198483
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,223.0,AWD0000n50,1918-01-27,Blairville,Blairville,France,2.7145636,50.2198483
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,223.0,AWD0000n50,1918-01-27,Beaurains,Beaurains,France,2.7884975,50.2634866
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,223.0,AWD0000n50,1918-01-28,Beaurains,Beaurains,France,2.7884975,50.2634866
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,223.0,AWD0000n50,1918-01-30,Wancourt,Wancourt,France,2.8720251,50.2473392
+3 DIVISION: 10 Battalion Royal Welsh Fusiliers,223.0,AWD0000n50,1918-01-31,Guemappe,Guemappe,FR,2.88984,50.25428
